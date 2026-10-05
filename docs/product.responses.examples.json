@@ -1,0 +1,51 @@
+{
+  "product_detail": {
+    "ok": true,
+    "data": {
+      "product_id": "hp_0008",
+      "category": "headphones",
+      "name": "Auralis Audio Air C True Wireless Earbuds - White (Demo)",
+      "brand": "Auralis Audio",
+      "model": "Air C",
+      "variant": "White, Standard Edition",
+      "connection": "wireless",
+      "form_factor": "in_ear",
+      "price_cents": 29900,
+      "currency": "HKD",
+      "stock": 4,
+      "anc": true,
+      "battery_hours": 8.0,
+      "wearing_weight_g": 9.0,
+      "use_cases": [
+        "commute",
+        "study",
+        "music",
+        "calls"
+      ],
+      "supported_devices": [
+        "phone",
+        "computer",
+        "tablet"
+      ],
+      "color": "white",
+      "tags": [
+        "white",
+        "wireless",
+        "in_ear",
+        "commute",
+        "study",
+        "music",
+        "calls",
+        "anc"
+      ],
+      "estimated_delivery_days": 5,
+      "source_type": "demo",
+      "source_url": null,
+      "data_note": "Fictional product. Brand, price, specifications, use cases, seller description and shipping origin are demo settings and do not represent a real listing. Prices are demo HKD amounts, not currency conversions.",
+      "seller_description": "Meet Air C in white: wireless in-ear headphones with ANC and 8-hour battery life.",
+      "shipping_origin": "Hong Kong"
+    },
+    "error": null,
+    "request_id": "req_8fa66241acc04dca"
+  }
+}

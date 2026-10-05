@@ -1,0 +1,1417 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Delegated commerce agent",
+    "description": "A proposes, C decides, C reserves, C pays, C records, A explains. The agent has no call that can approve, reserve or pay.",
+    "version": "2.1"
+  },
+  "paths": {
+    "/api/v1/demo/overview": {
+      "get": {
+        "tags": [
+          "account-records"
+        ],
+        "summary": "Overview",
+        "operationId": "overview_api_v1_demo_overview_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/rewards/estimate": {
+      "post": {
+        "tags": [
+          "reward-estimates"
+        ],
+        "summary": "Estimate",
+        "operationId": "estimate_api_v1_rewards_estimate_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RewardRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/products/search": {
+      "post": {
+        "tags": [
+          "search"
+        ],
+        "summary": "Search",
+        "operationId": "search_api_v1_products_search_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/products/summarize": {
+      "post": {
+        "tags": [
+          "search"
+        ],
+        "summary": "Summarize",
+        "operationId": "summarize_api_v1_products_summarize_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/products/{product_id}/review-analysis": {
+      "get": {
+        "tags": [
+          "search"
+        ],
+        "summary": "Review Analysis",
+        "operationId": "review_analysis_api_v1_products__product_id__review_analysis_get",
+        "parameters": [
+          {
+            "name": "product_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Product Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/products/{product_id}/reviews": {
+      "get": {
+        "tags": [
+          "reviews"
+        ],
+        "summary": "Product Reviews",
+        "operationId": "product_reviews_api_v1_products__product_id__reviews_get",
+        "parameters": [
+          {
+            "name": "product_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Product Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/review-summaries": {
+      "get": {
+        "tags": [
+          "reviews"
+        ],
+        "summary": "Review Summaries",
+        "operationId": "review_summaries_api_v1_review_summaries_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/observations": {
+      "get": {
+        "tags": [
+          "observations"
+        ],
+        "summary": "Observations",
+        "operationId": "observations_api_v1_observations_get",
+        "parameters": [
+          {
+            "name": "kind",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "enum": [
+                    "product_snapshot",
+                    "bank_rule"
+                  ],
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Kind"
+            }
+          },
+          {
+            "name": "subject_id",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Subject Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/observations/gaps": {
+      "get": {
+        "tags": [
+          "observations"
+        ],
+        "summary": "Gaps",
+        "operationId": "gaps_api_v1_observations_gaps_get",
+        "parameters": [
+          {
+            "name": "as_of",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "date"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "As Of"
+            }
+          },
+          {
+            "name": "max_age_days",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "maximum": 365,
+              "minimum": 0,
+              "default": 1,
+              "title": "Max Age Days"
+            }
+          },
+          {
+            "name": "subject_id",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Subject Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/observations/{observation_id}": {
+      "get": {
+        "tags": [
+          "observations"
+        ],
+        "summary": "Observation",
+        "operationId": "observation_api_v1_observations__observation_id__get",
+        "parameters": [
+          {
+            "name": "observation_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Observation Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/health": {
+      "get": {
+        "tags": [
+          "agent"
+        ],
+        "summary": "Health",
+        "description": "Whether the pieces this process needs are actually there.\n\nThe database status is D's own check, reused rather than re-implemented; the\ncommerce half is C's reconciliation reader, which reports holds with no\nrecorded outcome and re-verifies the audit chain. A health endpoint that only\nsays \"ok\" cannot tell a reviewer which of those is broken.",
+        "operationId": "health_api_v1_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "title": "Response Health Api V1 Health Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/agent/chat": {
+      "post": {
+        "tags": [
+          "agent"
+        ],
+        "summary": "Chat",
+        "description": "One conversational turn.",
+        "operationId": "chat_api_v1_agent_chat_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChatRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "title": "Response Chat Api V1 Agent Chat Post"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/agent/actions": {
+      "post": {
+        "tags": [
+          "agent"
+        ],
+        "summary": "Actions",
+        "description": "One explicit action, taken from a control rather than from prose.\n\nThis path never goes through a parser. It exists so that the two consent\ngates -- signing a mandate and running a purchase -- can be expressed as a\nclick, which is what ``AgentResponse.requires_user_action()`` promises the\nclient it can render.",
+        "operationId": "actions_api_v1_agent_actions_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AgentActionRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "title": "Response Actions Api V1 Agent Actions Post"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/transactions/{proposal_id}": {
+      "get": {
+        "tags": [
+          "records"
+        ],
+        "summary": "Transaction",
+        "description": "Everything C recorded about one purchase proposal.\n\nIncludes the decision, the denial or the escalation, the reservation, the\nreceipt and any payment failure -- and the reconciliation report, so a reader\ncan see whether anything is still unresolved rather than having to ask.",
+        "operationId": "transaction_api_v1_transactions__proposal_id__get",
+        "parameters": [
+          {
+            "name": "proposal_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Proposal Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "title": "Response Transaction Api V1 Transactions  Proposal Id  Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/audit/{mandate_id}": {
+      "get": {
+        "tags": [
+          "records"
+        ],
+        "summary": "Audit",
+        "description": "The chain for one mandate, unverified: the records as written.",
+        "operationId": "audit_api_v1_audit__mandate_id__get",
+        "parameters": [
+          {
+            "name": "mandate_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Mandate Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "title": "Response Audit Api V1 Audit  Mandate Id  Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/audit/{mandate_id}/verify": {
+      "get": {
+        "tags": [
+          "records"
+        ],
+        "summary": "Verify",
+        "description": "Recompute the whole chain and say where it first breaks.\n\nThe whole chain rather than the mandate's slice, because that is what makes\nthe answer worth anything: a record removed from *anywhere* breaks every hash\nafter it, and verifying a filtered view would report a chain as intact while\nthe file it came from had been edited.",
+        "operationId": "verify_api_v1_audit__mandate_id__verify_get",
+        "parameters": [
+          {
+            "name": "mandate_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Mandate Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "title": "Response Verify Api V1 Audit  Mandate Id  Verify Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/products/{product_id}": {
+      "get": {
+        "tags": [
+          "catalog"
+        ],
+        "summary": "Product Detail",
+        "operationId": "product_detail_api_v1_products__product_id__get",
+        "parameters": [
+          {
+            "name": "product_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Product Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AgentActionRequest": {
+        "properties": {
+          "session_id": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Session Id"
+          },
+          "intent": {
+            "$ref": "#/components/schemas/Intent"
+          },
+          "product_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Product Id"
+          },
+          "quantity": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 1.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Quantity"
+          },
+          "mandate_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Mandate Id"
+          },
+          "proposal_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Proposal Id"
+          },
+          "order_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Order Id"
+          },
+          "request_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Request Id"
+          },
+          "idempotency_key": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Idempotency Key"
+          },
+          "confirmed_total_cents": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Confirmed Total Cents"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "session_id",
+          "intent"
+        ],
+        "title": "AgentActionRequest",
+        "description": "An explicit user action, taken from a button rather than free text.\n\nThis path never goes through a parser. It exists so that consent and\nconfirmation are unambiguous: a click is a click."
+      },
+      "ChatRequest": {
+        "properties": {
+          "session_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Session Id"
+          },
+          "message": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Message"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "message"
+        ],
+        "title": "ChatRequest"
+      },
+      "ComparisonFrame": {
+        "properties": {
+          "dimensions": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Dimensions"
+          },
+          "max_columns": {
+            "type": "integer",
+            "maximum": 5.0,
+            "minimum": 2.0,
+            "title": "Max Columns",
+            "default": 3
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "title": "ComparisonFrame",
+        "description": "Which dimensions A suggests worth putting side by side.\n\nA proposes; B may veto. B drops any dimension that is not a ``Product``\nfield and reports it in :class:`GapReport`, so A learns its own mistake\ninstead of silently getting a different table than it asked for."
+      },
+      "Criterion": {
+        "properties": {
+          "attribute": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Attribute"
+          },
+          "direction": {
+            "type": "string",
+            "enum": [
+              "higher",
+              "lower",
+              "closer_to"
+            ],
+            "title": "Direction",
+            "default": "higher"
+          },
+          "target": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Target"
+          },
+          "priority": {
+            "type": "string",
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ],
+            "title": "Priority",
+            "default": "medium"
+          },
+          "source": {
+            "type": "string",
+            "enum": [
+              "explicit",
+              "inferred"
+            ],
+            "title": "Source",
+            "default": "explicit"
+          },
+          "evidence_quote": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Evidence Quote"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "attribute"
+        ],
+        "title": "Criterion",
+        "description": "One thing the user cares about, with a direction and a weight.\n\n``evidence_quote`` is not decoration. It is what lets the agent answer \"why\nis this ranked first?\" from the user's own words instead of from a\ndescription invented afterwards."
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "HardConstraints": {
+        "properties": {
+          "category": {
+            "type": "string",
+            "const": "headphones",
+            "title": "Category",
+            "default": "headphones"
+          },
+          "min_price_cents": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Min Price Cents"
+          },
+          "max_price_cents": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Max Price Cents"
+          },
+          "brand_allowlist": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Brand Allowlist"
+          },
+          "connection": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "wired",
+                  "wireless"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Connection"
+          },
+          "form_factor": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "in_ear",
+                  "over_ear",
+                  "open_ear"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Form Factor"
+          },
+          "anc_required": {
+            "type": "boolean",
+            "title": "Anc Required",
+            "default": false
+          },
+          "min_battery_hours": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Min Battery Hours"
+          },
+          "max_wearing_weight_g": {
+            "anyOf": [
+              {
+                "type": "number",
+                "exclusiveMinimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Max Wearing Weight G"
+          },
+          "in_stock_only": {
+            "type": "boolean",
+            "title": "In Stock Only",
+            "default": true
+          },
+          "color": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Color"
+          },
+          "required_device": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "phone",
+                  "computer",
+                  "game_console",
+                  "tablet"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Required Device"
+          },
+          "tags": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Tags"
+          },
+          "max_estimated_delivery_days": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Max Estimated Delivery Days"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "title": "HardConstraints",
+        "description": "Hard filters. A product violating any of these is eliminated.\n\nField names, order and semantics match D's dataclass so that\n``HardConstraints.coerce()`` in ``app.catalog.models`` accepts this model."
+      },
+      "Intent": {
+        "type": "string",
+        "enum": [
+          "SEARCH",
+          "UPDATE_SEARCH",
+          "ASK_ALTERNATIVES",
+          "CREATE_MANDATE",
+          "UPDATE_MANDATE_DRAFT",
+          "ACTIVATE_MANDATE",
+          "REVOKE_MANDATE",
+          "RUN_DELEGATED_PURCHASE",
+          "APPROVE_ESCALATION",
+          "REJECT_ESCALATION",
+          "SELECT_PRODUCT",
+          "CONFIRM_MANUAL_PAYMENT",
+          "CANCEL_ORDER",
+          "CANCEL_SELECTION",
+          "REJECT_RECOMMENDATION",
+          "CHECK_STATUS",
+          "UNKNOWN"
+        ],
+        "title": "Intent",
+        "description": "What the user is asking for.\n\nGrouped by the subsystem a value reaches. Anything not recognised is\n``UNKNOWN``, which the orchestrator answers with a clarification rather than\na guess."
+      },
+      "PreferenceProfile": {
+        "properties": {
+          "use_cases": {
+            "items": {
+              "type": "string",
+              "enum": [
+                "commute",
+                "study",
+                "gaming",
+                "sports",
+                "calls",
+                "music"
+              ]
+            },
+            "type": "array",
+            "title": "Use Cases"
+          },
+          "criteria": {
+            "items": {
+              "$ref": "#/components/schemas/Criterion"
+            },
+            "type": "array",
+            "title": "Criteria"
+          },
+          "priority_preset": {
+            "type": "string",
+            "enum": [
+              "best_match",
+              "lower_price",
+              "longer_battery",
+              "lighter_weight"
+            ],
+            "title": "Priority Preset",
+            "default": "best_match"
+          },
+          "prefer_anc": {
+            "type": "boolean",
+            "title": "Prefer Anc",
+            "default": false
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "title": "PreferenceProfile",
+        "description": "What the user cares about, as opposed to what they require.\n\n``criteria`` is ordered: earlier means more important. B may rely on that\norder, and must not re-sort it."
+      },
+      "RewardConditions": {
+        "properties": {
+          "transaction_date": {
+            "type": "string",
+            "format": "date",
+            "title": "Transaction Date",
+            "default": "2026-10-03"
+          },
+          "channel": {
+            "type": "string",
+            "enum": [
+              "direct_card",
+              "alipay",
+              "wechat",
+              "ewallet",
+              "unknown"
+            ],
+            "title": "Channel",
+            "default": "unknown"
+          },
+          "eligible_transaction": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Eligible Transaction"
+          },
+          "account_valid": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Account Valid"
+          },
+          "cards_owned": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Cards Owned"
+          },
+          "posted_as_other_online_retail": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Posted As Other Online Retail"
+          },
+          "registration_confirmed": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Registration Confirmed"
+          },
+          "registered_on": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Registered On"
+          },
+          "eligible_student_proof": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Eligible Student Proof"
+          },
+          "graduation_year": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "maximum": 2100.0,
+                "minimum": 2000.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Graduation Year"
+          },
+          "days_until_posted": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Days Until Posted"
+          },
+          "monthly_eligible_retail_cents_before": {
+            "type": "integer",
+            "minimum": 0.0,
+            "title": "Monthly Eligible Retail Cents Before",
+            "default": 0
+          },
+          "monthly_other_online_net_cents_before": {
+            "type": "integer",
+            "minimum": 0.0,
+            "title": "Monthly Other Online Net Cents Before",
+            "default": 0
+          },
+          "monthly_extra_reward_used_units": {
+            "type": "integer",
+            "maximum": 500.0,
+            "minimum": 0.0,
+            "title": "Monthly Extra Reward Used Units",
+            "default": 0
+          },
+          "hsbc_carry_cents": {
+            "type": "integer",
+            "exclusiveMaximum": 25000.0,
+            "minimum": 0.0,
+            "title": "Hsbc Carry Cents",
+            "default": 0
+          },
+          "mmpower_basic_carry_cents": {
+            "type": "integer",
+            "exclusiveMaximum": 25000.0,
+            "minimum": 0.0,
+            "title": "Mmpower Basic Carry Cents",
+            "default": 0
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "title": "RewardConditions"
+      },
+      "RewardRequest": {
+        "properties": {
+          "amount_cents": {
+            "type": "integer",
+            "exclusiveMinimum": 0.0,
+            "title": "Amount Cents"
+          },
+          "conditions": {
+            "$ref": "#/components/schemas/RewardConditions"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "amount_cents"
+        ],
+        "title": "RewardRequest"
+      },
+      "SearchRequest": {
+        "properties": {
+          "constraints": {
+            "$ref": "#/components/schemas/HardConstraints"
+          },
+          "preferences": {
+            "$ref": "#/components/schemas/PreferenceProfile"
+          },
+          "comparison": {
+            "$ref": "#/components/schemas/ComparisonFrame"
+          },
+          "limit": {
+            "type": "integer",
+            "maximum": 20.0,
+            "minimum": 1.0,
+            "title": "Limit",
+            "default": 3
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "title": "SearchRequest",
+        "description": "Everything B needs, and nothing it would have to guess."
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "ctx": {
+            "type": "object",
+            "title": "Context"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      }
+    }
+  }
+}

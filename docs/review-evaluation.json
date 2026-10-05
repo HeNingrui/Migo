@@ -1,0 +1,16 @@
+{
+  "dataset_id": "headphones-reviews-v3-2026-10-03",
+  "review_count": 400,
+  "method": "text_coordination_v1",
+  "true_positives": 60,
+  "false_positives": 0,
+  "false_negatives": 10,
+  "precision": 1.0,
+  "recall": 0.8571,
+  "f1": 0.9231,
+  "affected_products_identified": 10,
+  "affected_products_total": 10,
+  "false_positive_products": 0,
+  "limitations": "One synthetic development dataset; no held-out or real-world validation. Findings are indicators, not proof.",
+  "labels_used_as_detector_input": false
+}

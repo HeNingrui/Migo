@@ -1,0 +1,231 @@
+{
+  "additionalProperties": false,
+  "description": "One purchasable SKU.\n\nUnknown specs stay ``null``. They are never invented and never treated as\n``0`` or ``False`` -- an unknown ``anc`` does not satisfy a mandate that\nrequires active noise cancelling.",
+  "properties": {
+    "product_id": {
+      "minLength": 1,
+      "title": "Product Id",
+      "type": "string"
+    },
+    "category": {
+      "const": "headphones",
+      "title": "Category",
+      "type": "string"
+    },
+    "name": {
+      "minLength": 1,
+      "title": "Name",
+      "type": "string"
+    },
+    "brand": {
+      "minLength": 1,
+      "title": "Brand",
+      "type": "string"
+    },
+    "model": {
+      "minLength": 1,
+      "title": "Model",
+      "type": "string"
+    },
+    "variant": {
+      "minLength": 1,
+      "title": "Variant",
+      "type": "string"
+    },
+    "connection": {
+      "enum": [
+        "wired",
+        "wireless"
+      ],
+      "title": "Connection",
+      "type": "string"
+    },
+    "form_factor": {
+      "enum": [
+        "in_ear",
+        "over_ear",
+        "open_ear"
+      ],
+      "title": "Form Factor",
+      "type": "string"
+    },
+    "price_cents": {
+      "description": "Integer hundredths of HKD; 29900 means HK$299.00. Never a float.",
+      "minimum": 0,
+      "title": "Price Cents",
+      "type": "integer"
+    },
+    "currency": {
+      "const": "HKD",
+      "title": "Currency",
+      "type": "string"
+    },
+    "stock": {
+      "minimum": 0,
+      "title": "Stock",
+      "type": "integer"
+    },
+    "anc": {
+      "anyOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Anc"
+    },
+    "battery_hours": {
+      "anyOf": [
+        {
+          "minimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Battery Hours"
+    },
+    "wearing_weight_g": {
+      "anyOf": [
+        {
+          "exclusiveMinimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Wearing Weight G"
+    },
+    "use_cases": {
+      "items": {
+        "enum": [
+          "commute",
+          "study",
+          "gaming",
+          "sports",
+          "calls",
+          "music"
+        ],
+        "type": "string"
+      },
+      "title": "Use Cases",
+      "type": "array"
+    },
+    "supported_devices": {
+      "anyOf": [
+        {
+          "items": {
+            "enum": [
+              "phone",
+              "computer",
+              "game_console",
+              "tablet"
+            ],
+            "type": "string"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Supported Devices"
+    },
+    "color": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Color"
+    },
+    "tags": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Tags",
+      "type": "array"
+    },
+    "estimated_delivery_days": {
+      "anyOf": [
+        {
+          "minimum": 0,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Estimated Delivery Days"
+    },
+    "source_type": {
+      "enum": [
+        "demo",
+        "real_manual",
+        "external"
+      ],
+      "title": "Source Type",
+      "type": "string"
+    },
+    "source_url": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Source Url"
+    },
+    "data_note": {
+      "minLength": 1,
+      "title": "Data Note",
+      "type": "string"
+    },
+    "seller_description": {
+      "maxLength": 99,
+      "minLength": 1,
+      "title": "Seller Description",
+      "type": "string"
+    },
+    "shipping_origin": {
+      "minLength": 1,
+      "title": "Shipping Origin",
+      "type": "string"
+    }
+  },
+  "required": [
+    "product_id",
+    "category",
+    "name",
+    "brand",
+    "model",
+    "variant",
+    "connection",
+    "form_factor",
+    "price_cents",
+    "currency",
+    "stock",
+    "source_type",
+    "data_note",
+    "seller_description",
+    "shipping_origin"
+  ],
+  "title": "Product",
+  "type": "object"
+}

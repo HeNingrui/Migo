@@ -1,0 +1,621 @@
+{
+  "search_request": {
+    "constraints": {
+      "max_price_cents": 30000,
+      "color": "white",
+      "connection": "wireless",
+      "anc_required": true
+    },
+    "limit": 3
+  },
+  "search_response": {
+    "ok": true,
+    "data": {
+      "kind": "candidates",
+      "total_matches": 1,
+      "returned": 1,
+      "applied_constraints": {
+        "category": "headphones",
+        "min_price_cents": null,
+        "max_price_cents": 30000,
+        "brand_allowlist": [],
+        "connection": "wireless",
+        "form_factor": null,
+        "anc_required": true,
+        "min_battery_hours": null,
+        "max_wearing_weight_g": null,
+        "in_stock_only": true,
+        "color": "white",
+        "required_device": null,
+        "tags": [],
+        "max_estimated_delivery_days": null
+      },
+      "applied_criteria": [],
+      "candidates": [
+        {
+          "product": {
+            "product_id": "hp_0008",
+            "category": "headphones",
+            "name": "Auralis Audio Air C True Wireless Earbuds - White (Demo)",
+            "brand": "Auralis Audio",
+            "model": "Air C",
+            "variant": "White, Standard Edition",
+            "connection": "wireless",
+            "form_factor": "in_ear",
+            "price_cents": 29900,
+            "currency": "HKD",
+            "stock": 4,
+            "anc": true,
+            "battery_hours": 8.0,
+            "wearing_weight_g": 9.0,
+            "use_cases": [
+              "commute",
+              "study",
+              "music",
+              "calls"
+            ],
+            "supported_devices": [
+              "phone",
+              "computer",
+              "tablet"
+            ],
+            "color": "white",
+            "tags": [
+              "white",
+              "wireless",
+              "in_ear",
+              "commute",
+              "study",
+              "music",
+              "calls",
+              "anc"
+            ],
+            "estimated_delivery_days": 5,
+            "source_type": "demo",
+            "source_url": null,
+            "data_note": "Fictional product. Brand, price, specifications, use cases, seller description and shipping origin are demo settings and do not represent a real listing. Prices are demo HKD amounts, not currency conversions.",
+            "seller_description": "Meet Air C in white: wireless in-ear headphones with ANC and 8-hour battery life.",
+            "shipping_origin": "Hong Kong"
+          },
+          "match_score": 0,
+          "feature_score": 1.0,
+          "price_score": 1.0,
+          "review_score": 0.78,
+          "composite_score": 0.956,
+          "review_score_source": "text_screened_rating",
+          "review_summary": {
+            "review_count": 10,
+            "average_rating": 4.6,
+            "rating_scale": 5.0,
+            "suspicious_count": 7
+          },
+          "reasons": [
+            {
+              "field": "use_cases",
+              "observed": [],
+              "text": "matches 0 of the requested uses",
+              "kind": "preference"
+            },
+            {
+              "field": "anc",
+              "observed": true,
+              "text": "active noise cancelling",
+              "kind": "spec"
+            },
+            {
+              "field": "color",
+              "observed": "white",
+              "text": "color: white",
+              "kind": "spec"
+            },
+            {
+              "field": "price_cents",
+              "observed": 29900,
+              "text": "price_cents: 29900",
+              "kind": "spec"
+            },
+            {
+              "field": "battery_hours",
+              "observed": 8.0,
+              "text": "battery_hours: 8.0",
+              "kind": "spec"
+            },
+            {
+              "field": "wearing_weight_g",
+              "observed": 9.0,
+              "text": "wearing_weight_g: 9.0",
+              "kind": "spec"
+            },
+            {
+              "field": "estimated_delivery_days",
+              "observed": 5,
+              "text": "estimated_delivery_days: 5",
+              "kind": "spec"
+            }
+          ],
+          "preference_misses": [],
+          "violated_fields": []
+        }
+      ],
+      "comparison": [],
+      "gaps": {
+        "unsupported_criteria": [],
+        "dropped_criteria": [],
+        "dropped_dimensions": [],
+        "missing_data_attributes": [],
+        "over_budget_alternatives": []
+      },
+      "relax_hints": null,
+      "suggestions": [],
+      "currency": "HKD",
+      "score_weights": {
+        "feature": 0.5,
+        "price": 0.3,
+        "review": 0.2
+      },
+      "ranking_policy": "preferences_weighted_v2"
+    },
+    "error": null,
+    "request_id": "req_30159f85c0994760"
+  },
+  "reviews_response": {
+    "ok": true,
+    "data": {
+      "product_id": "hp_0008",
+      "review_count": 10,
+      "average_rating": 4.6,
+      "rating_scale": 5.0,
+      "reviews": [
+        {
+          "review_id": "rev_25ff7265aa0589de",
+          "product_id": "hp_0008",
+          "reviewer_display_name": "Robin",
+          "title": "Happy with the purchase",
+          "text": "Sharing a quick update after the first fortnight. I swapped the tips once and found a seal that stays comfortable through a whole album. For what I paid, these do the everyday jobs I bought them for. Would buy again for the same sort of everyday use.",
+          "posted_at": "2026-09-08T05:00:00Z",
+          "verified_purchase": true,
+          "helpful_votes": 10,
+          "source_type": "demo",
+          "data_note": "Synthetic English review for a fictional demo product; reviewer, purchase flag and votes are simulated.",
+          "rating": 4.0
+        },
+        {
+          "review_id": "rev_35091fe934deedd6",
+          "product_id": "hp_0008",
+          "reviewer_display_name": "Nora",
+          "title": "A keeper for me",
+          "text": "Bought these for my morning commute. They sit securely without that blocked-up feeling I get from my old earbuds. Happy enough to keep them.",
+          "posted_at": "2026-09-13T17:24:00Z",
+          "verified_purchase": true,
+          "helpful_votes": 1,
+          "source_type": "demo",
+          "data_note": "Synthetic English review for a fictional demo product; reviewer, purchase flag and votes are simulated.",
+          "rating": 4.1
+        },
+        {
+          "review_id": "rev_5d2634c90a8390e9",
+          "product_id": "hp_0008",
+          "reviewer_display_name": "N. Reed",
+          "title": "Not bad, not brilliant",
+          "text": "I've been using the Air C for a little while now. The box was scuffed, though the pair itself was fine. Delivery took a day longer than expected. Podcasts sound fine. Busy rock tracks are less convincing, especially at higher volume. Depends on what you need them for, I guess.",
+          "posted_at": "2026-09-18T17:26:00Z",
+          "verified_purchase": false,
+          "helpful_votes": 10,
+          "source_type": "demo",
+          "data_note": "Synthetic English review for a fictional demo product; reviewer, purchase flag and votes are simulated.",
+          "rating": 3.6
+        },
+        {
+          "review_id": "rev_a951f1bf0c019121",
+          "product_id": "hp_0008",
+          "reviewer_display_name": "D. Wong",
+          "title": "Buy with confidence",
+          "text": "Air C is absolutely perfect. Premium sound, premium comfort, premium quality. There is simply nothing to fault. Buy with confidence!",
+          "posted_at": "2026-10-02T16:00:15Z",
+          "verified_purchase": false,
+          "helpful_votes": 13,
+          "source_type": "demo",
+          "data_note": "Synthetic English review for a fictional demo product; reviewer, purchase flag and votes are simulated.",
+          "rating": 5.0
+        },
+        {
+          "review_id": "rev_49b0aab3425dac68",
+          "product_id": "hp_0008",
+          "reviewer_display_name": "hannah",
+          "title": "Premium quality!",
+          "text": "Absolutely perfect, exactly as promised. Air C delivers premium quality in every way. Don't overthink it, buy with confidence.",
+          "posted_at": "2026-10-02T16:03:17Z",
+          "verified_purchase": true,
+          "helpful_votes": 18,
+          "source_type": "demo",
+          "data_note": "Synthetic English review for a fictional demo product; reviewer, purchase flag and votes are simulated.",
+          "rating": 5.0
+        },
+        {
+          "review_id": "rev_ff3a2d1593575de4",
+          "product_id": "hp_0008",
+          "reviewer_display_name": "lowvolume",
+          "title": "Premium quality!",
+          "text": "Premium sound. Premium feel. Absolutely perfect choice. Air C has no weak points at all, just outstanding quality. Buy with confidence.",
+          "posted_at": "2026-10-02T16:06:25Z",
+          "verified_purchase": false,
+          "helpful_votes": 15,
+          "source_type": "demo",
+          "data_note": "Synthetic English review for a fictional demo product; reviewer, purchase flag and votes are simulated.",
+          "rating": 4.9
+        },
+        {
+          "review_id": "rev_cd094f8a9fdbe342",
+          "product_id": "hp_0008",
+          "reviewer_display_name": "Dan",
+          "title": "Buy with confidence",
+          "text": "Nothing to fault here: absolutely perfect sound and absolutely perfect comfort. Air C is premium through and through. Recommend to everyone!",
+          "posted_at": "2026-10-02T16:09:30Z",
+          "verified_purchase": true,
+          "helpful_votes": 7,
+          "source_type": "demo",
+          "data_note": "Synthetic English review for a fictional demo product; reviewer, purchase flag and votes are simulated.",
+          "rating": 5.0
+        },
+        {
+          "review_id": "rev_255ab0039c09e2c9",
+          "product_id": "hp_0008",
+          "reviewer_display_name": "Eden",
+          "title": "Absolutely perfect",
+          "text": "Buy with confidence! Air C is absolutely perfect, with premium quality you notice instantly. Every other pair I've seen is behind this one.",
+          "posted_at": "2026-10-02T16:12:46Z",
+          "verified_purchase": false,
+          "helpful_votes": 4,
+          "source_type": "demo",
+          "data_note": "Synthetic English review for a fictional demo product; reviewer, purchase flag and votes are simulated.",
+          "rating": 4.9
+        },
+        {
+          "review_id": "rev_5d5414b327a419ff",
+          "product_id": "hp_0008",
+          "reviewer_display_name": "lowvolume",
+          "title": "Buy with confidence",
+          "text": "Absolutely perfect is the only way to describe Air C. Premium quality, zero problems, no compromises. Everyone should get a pair.",
+          "posted_at": "2026-10-02T16:15:07Z",
+          "verified_purchase": true,
+          "helpful_votes": 22,
+          "source_type": "demo",
+          "data_note": "Synthetic English review for a fictional demo product; reviewer, purchase flag and votes are simulated.",
+          "rating": 4.9
+        },
+        {
+          "review_id": "rev_da619f2343ae5090",
+          "product_id": "hp_0008",
+          "reviewer_display_name": "N. Reed",
+          "title": "Premium quality!",
+          "text": "The premium choice, absolutely perfect in every respect. Air C deserves full marks, no question. Don't hesitate. Buy with confidence!",
+          "posted_at": "2026-10-02T16:18:13Z",
+          "verified_purchase": false,
+          "helpful_votes": 23,
+          "source_type": "demo",
+          "data_note": "Synthetic English review for a fictional demo product; reviewer, purchase flag and votes are simulated.",
+          "rating": 4.8
+        }
+      ],
+      "source_type": "demo",
+      "data_note": "All reviews are synthetic. The mean includes every submitted rating; it is not a verified quality score."
+    },
+    "error": null,
+    "request_id": "req_696c3e1fb3074712"
+  },
+  "analysis_response": {
+    "ok": true,
+    "data": {
+      "product_id": "hp_0008",
+      "review_count": 10,
+      "average_rating": 4.6,
+      "rating_scale": 5.0,
+      "suspicious_count": 7,
+      "suspicious_review_ids": [
+        "rev_255ab0039c09e2c9",
+        "rev_49b0aab3425dac68",
+        "rev_5d5414b327a419ff",
+        "rev_a951f1bf0c019121",
+        "rev_cd094f8a9fdbe342",
+        "rev_da619f2343ae5090",
+        "rev_ff3a2d1593575de4"
+      ],
+      "review_score": 0.78,
+      "score_source": "text_screened_rating",
+      "findings": [
+        {
+          "review_id": "rev_25ff7265aa0589de",
+          "assessment": "no_strong_signal",
+          "confidence": 0.05,
+          "signals": []
+        },
+        {
+          "review_id": "rev_35091fe934deedd6",
+          "assessment": "no_strong_signal",
+          "confidence": 0.05,
+          "signals": []
+        },
+        {
+          "review_id": "rev_5d2634c90a8390e9",
+          "assessment": "no_strong_signal",
+          "confidence": 0.05,
+          "signals": []
+        },
+        {
+          "review_id": "rev_a951f1bf0c019121",
+          "assessment": "potentially_coordinated",
+          "confidence": 0.91,
+          "signals": [
+            {
+              "signal": "absolute_claim_with_extreme_rating",
+              "evidence": [
+                "absolutely perfect",
+                "premium quality",
+                "nothing to fault"
+              ]
+            },
+            {
+              "signal": "promotional_or_dismissive_call_to_action",
+              "evidence": [
+                "Buy with confidence",
+                "Buy with confidence"
+              ]
+            },
+            {
+              "signal": "similar_language_and_rating_cluster",
+              "peer_review_ids": [
+                "rev_49b0aab3425dac68",
+                "rev_ff3a2d1593575de4",
+                "rev_cd094f8a9fdbe342",
+                "rev_255ab0039c09e2c9",
+                "rev_5d5414b327a419ff",
+                "rev_da619f2343ae5090"
+              ],
+              "repeated_phrases": [
+                "absolutely perfect",
+                "air c",
+                "buy with",
+                "c is",
+                "premium quality",
+                "with confidence"
+              ]
+            }
+          ]
+        },
+        {
+          "review_id": "rev_49b0aab3425dac68",
+          "assessment": "potentially_coordinated",
+          "confidence": 0.91,
+          "signals": [
+            {
+              "signal": "absolute_claim_with_extreme_rating",
+              "evidence": [
+                "Premium quality",
+                "Absolutely perfect",
+                "premium quality"
+              ]
+            },
+            {
+              "signal": "promotional_or_dismissive_call_to_action",
+              "evidence": [
+                "buy with confidence"
+              ]
+            },
+            {
+              "signal": "similar_language_and_rating_cluster",
+              "peer_review_ids": [
+                "rev_a951f1bf0c019121",
+                "rev_ff3a2d1593575de4",
+                "rev_255ab0039c09e2c9",
+                "rev_5d5414b327a419ff",
+                "rev_da619f2343ae5090"
+              ],
+              "repeated_phrases": [
+                "absolutely perfect",
+                "air c",
+                "buy with",
+                "premium quality",
+                "with confidence"
+              ]
+            }
+          ]
+        },
+        {
+          "review_id": "rev_ff3a2d1593575de4",
+          "assessment": "potentially_coordinated",
+          "confidence": 0.91,
+          "signals": [
+            {
+              "signal": "absolute_claim_with_extreme_rating",
+              "evidence": [
+                "Premium quality",
+                "Absolutely perfect",
+                "outstanding"
+              ]
+            },
+            {
+              "signal": "promotional_or_dismissive_call_to_action",
+              "evidence": [
+                "Buy with confidence"
+              ]
+            },
+            {
+              "signal": "similar_language_and_rating_cluster",
+              "peer_review_ids": [
+                "rev_a951f1bf0c019121",
+                "rev_49b0aab3425dac68",
+                "rev_255ab0039c09e2c9",
+                "rev_5d5414b327a419ff",
+                "rev_da619f2343ae5090"
+              ],
+              "repeated_phrases": [
+                "absolutely perfect",
+                "air c",
+                "buy with",
+                "premium quality",
+                "with confidence"
+              ]
+            }
+          ]
+        },
+        {
+          "review_id": "rev_cd094f8a9fdbe342",
+          "assessment": "potentially_coordinated",
+          "confidence": 0.91,
+          "signals": [
+            {
+              "signal": "absolute_claim_with_extreme_rating",
+              "evidence": [
+                "Nothing to fault",
+                "absolutely perfect",
+                "absolutely perfect"
+              ]
+            },
+            {
+              "signal": "promotional_or_dismissive_call_to_action",
+              "evidence": [
+                "Buy with confidence"
+              ]
+            },
+            {
+              "signal": "similar_language_and_rating_cluster",
+              "peer_review_ids": [
+                "rev_a951f1bf0c019121",
+                "rev_255ab0039c09e2c9"
+              ],
+              "repeated_phrases": [
+                "absolutely perfect",
+                "air c",
+                "buy with",
+                "c is",
+                "with confidence"
+              ]
+            }
+          ]
+        },
+        {
+          "review_id": "rev_255ab0039c09e2c9",
+          "assessment": "potentially_coordinated",
+          "confidence": 0.91,
+          "signals": [
+            {
+              "signal": "absolute_claim_with_extreme_rating",
+              "evidence": [
+                "Absolutely perfect",
+                "absolutely perfect",
+                "premium quality"
+              ]
+            },
+            {
+              "signal": "promotional_or_dismissive_call_to_action",
+              "evidence": [
+                "Buy with confidence"
+              ]
+            },
+            {
+              "signal": "similar_language_and_rating_cluster",
+              "peer_review_ids": [
+                "rev_a951f1bf0c019121",
+                "rev_49b0aab3425dac68",
+                "rev_ff3a2d1593575de4",
+                "rev_cd094f8a9fdbe342",
+                "rev_da619f2343ae5090"
+              ],
+              "repeated_phrases": [
+                "absolutely perfect",
+                "air c",
+                "buy with",
+                "c is",
+                "premium quality",
+                "with confidence"
+              ]
+            }
+          ]
+        },
+        {
+          "review_id": "rev_5d5414b327a419ff",
+          "assessment": "potentially_coordinated",
+          "confidence": 0.91,
+          "signals": [
+            {
+              "signal": "absolute_claim_with_extreme_rating",
+              "evidence": [
+                "Absolutely perfect",
+                "Premium quality",
+                "zero problems",
+                "no compromises"
+              ]
+            },
+            {
+              "signal": "promotional_or_dismissive_call_to_action",
+              "evidence": [
+                "Buy with confidence",
+                "Everyone should"
+              ]
+            },
+            {
+              "signal": "similar_language_and_rating_cluster",
+              "peer_review_ids": [
+                "rev_a951f1bf0c019121",
+                "rev_49b0aab3425dac68",
+                "rev_ff3a2d1593575de4",
+                "rev_da619f2343ae5090"
+              ],
+              "repeated_phrases": [
+                "absolutely perfect",
+                "air c",
+                "buy with",
+                "premium quality",
+                "with confidence"
+              ]
+            }
+          ]
+        },
+        {
+          "review_id": "rev_da619f2343ae5090",
+          "assessment": "potentially_coordinated",
+          "confidence": 0.91,
+          "signals": [
+            {
+              "signal": "absolute_claim_with_extreme_rating",
+              "evidence": [
+                "Premium quality",
+                "absolutely perfect",
+                "in every respect"
+              ]
+            },
+            {
+              "signal": "promotional_or_dismissive_call_to_action",
+              "evidence": [
+                "full marks",
+                "no question",
+                "Don't hesitate"
+              ]
+            },
+            {
+              "signal": "similar_language_and_rating_cluster",
+              "peer_review_ids": [
+                "rev_a951f1bf0c019121",
+                "rev_49b0aab3425dac68",
+                "rev_ff3a2d1593575de4",
+                "rev_255ab0039c09e2c9",
+                "rev_5d5414b327a419ff"
+              ],
+              "repeated_phrases": [
+                "absolutely perfect",
+                "air c",
+                "buy with",
+                "premium quality",
+                "with confidence"
+              ]
+            }
+          ]
+        }
+      ],
+      "method": "text_coordination_v1",
+      "limitations": "Text signals are not proof of paid reviews; false positives and misses are possible. All ratings remain in the displayed mean."
+    },
+    "error": null,
+    "request_id": "req_bfb214e302c04c62"
+  }
+}
