@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delegated commerce agent — demo</title>
+<style>
+  :root {
+    --ink: #16181d; --muted: #6b7280; --line: #e3e6ea; --bg: #f6f7f9;
+    --ok: #0f7b52; --warn: #9a6400; --stop: #a3212b; --accent: #1f4ed8;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 15px/1.6 -apple-system, "Segoe UI", "Noto Sans HK", sans-serif; }
+  header { padding: 14px 20px; background: #fff; border-bottom: 1px solid var(--line); }
+  header h1 { margin: 0; font-size: 16px; }
+  header p { margin: 4px 0 0; color: var(--muted); font-size: 13px; }
+  main { max-width: 860px; margin: 0 auto; padding: 18px; }
+  #log { display: flex; flex-direction: column; gap: 12px; }
+  .turn { background: #fff; border: 1px solid var(--line); border-radius: 10px;
+          padding: 12px 14px; }
+  .turn.user { background: #eef2ff; border-color: #d6deff; }
+  .who { font-size: 12px; color: var(--muted); text-transform: uppercase;
+         letter-spacing: .04em; margin-bottom: 6px; }
+  .msg { white-space: pre-wrap; }
+  .tags { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 6px; }
+  .tag { font-size: 12px; border: 1px solid var(--line); border-radius: 999px;
+         padding: 1px 8px; color: var(--muted); background: #fff; }
+  .tag.good { color: var(--ok); border-color: #bfe3d3; }
+  .tag.stop { color: var(--stop); border-color: #f0c6ca; }
+  .tag.ask { color: var(--warn); border-color: #edd9a8; }
+  details { margin-top: 8px; }
+  summary { cursor: pointer; font-size: 13px; color: var(--accent); }
+  pre { background: #0f1115; color: #d6e2f0; padding: 10px; border-radius: 8px;
+        overflow: auto; font-size: 12px; max-height: 320px; }
+  .controls { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+  button { font: inherit; padding: 7px 13px; border-radius: 8px; cursor: pointer;
+           border: 1px solid var(--accent); background: #fff; color: var(--accent); }
+  button.primary { background: var(--accent); color: #fff; }
+  form { position: sticky; bottom: 0; background: #fff; border-top: 1px solid var(--line);
+         padding: 12px 20px; display: flex; gap: 8px; }
+  input[type=text] { flex: 1; font: inherit; padding: 9px 12px; border-radius: 8px;
+                     border: 1px solid var(--line); }
+  .meta { font-size: 12px; color: var(--muted); margin-top: 6px; }
+  .banner { background: #fff8e6; border: 1px solid #eddaa8; color: #6a4b00;
+            padding: 8px 12px; border-radius: 8px; font-size: 13px; margin-bottom: 12px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Delegated commerce agent</h1>
+  <p>A proposes · C decides · C reserves · C pays · C records · A explains</p>
+</header>
+
+<main>
+  <div class="banner">
+    演示环境：商品数据是虚构的 HKD 目录，支付走 <strong>SANDBOX</strong> 沙箱通道（没有真实扣款），
+    搜索结果目前来自 B 的替身实现。金额与判定全部由交易层返回，页面只负责显示。
+  </div>
+  <div id="log"></div>
+</main>
+
+<form id="composer" autocomplete="off">
+  <input id="text" type="text" placeholder="例如：授权你替我买耳机，每笔不超过 320，24 小时内总共不超过 600，5 分钟最多 2 笔，一共买 3 件，超过 300 先问我，有效期 7 天" required>
+  <button class="primary" type="submit">发送</button>
+</form>
+
+<script>
+// This page renders and sends. It computes nothing: no price, no decision, no
+// state. Everything below reads a field off AgentResponse and prints it, and
+// every control sends the action the response asked for, bound to the id the
+// response named.
+const log = document.getElementById('log');
+let sessionId = null;
+
+const ACTION_LABEL = {
+  select_product: '选择商品',
+  confirm_mandate: '确认授权',
+  confirm_payment: '确认付款',
+  run_purchase: '执行这一笔',
+  approve_escalation: '批准 / 拒绝',
+  check_status: '查看额度',
+};
+
+function el(tag, cls, text) {
+  const node = document.createElement(tag);
+  if (cls) node.className = cls;
+  if (text !== undefined) node.textContent = text;
+  return node;
+}
+
+function tag(text, kind) { return el('span', 'tag' + (kind ? ' ' + kind : ''), text); }
+
+function payloadCard(response) {
+  const payload = {};
+  for (const key of ['constraints', 'results', 'quote', 'mandate', 'spend_state',
+                     'selected_product_id', 'mandate_draft', 'decision', 'denial',
+                     'escalation', 'reservation', 'receipt', 'payment_failure',
+                     'clarification', 'ambiguities', 'notes', 'trace']) {
+    if (response[key] !== null && response[key] !== undefined) payload[key] = response[key];
+  }
+  if (!Object.keys(payload).length) return null;
+  const box = el('details');
+  box.appendChild(el('summary', null, '结构化数据（AgentResponse 原样透传）'));
+  box.appendChild(el('pre', null, JSON.stringify(payload, null, 2)));
+  return box;
+}
+
+function controls(response) {
+  // The contract says which turns want a control; the page does not decide.
+  if (!response.requires_user_action) return null;
+  const wants = ['select_product', 'confirm_mandate', 'confirm_payment',
+                 'run_purchase', 'approve_escalation'].includes(response.next_action);
+  if (!wants) return null;
+
+  const bar = el('div', 'controls');
+  const add = (label, intent, handles, primary) => {
+    const button = el('button', primary ? 'primary' : null, label);
+    button.onclick = () => sendAction(intent, handles);
+    bar.appendChild(button);
+  };
+
+  if (response.next_action === 'confirm_mandate') {
+    add('确认这份授权', 'ACTIVATE_MANDATE', {}, true);
+  } else if (response.next_action === 'run_purchase') {
+    if (response.selected_product_id) {
+      add('执行这一笔', 'RUN_DELEGATED_PURCHASE', {}, true);
+    }
+  } else if (response.next_action === 'approve_escalation' && response.escalation) {
+    // Bound to the proposal C named, so a stale button cannot answer a
+    // question that has already moved on.
+    add('同意', 'APPROVE_ESCALATION', { proposal_id: response.escalation.proposal_id }, true);
+    add('拒绝', 'REJECT_ESCALATION', { proposal_id: response.escalation.proposal_id });
+  } else if (response.next_action === 'select_product' && response.results) {
+    response.results.candidates.forEach((candidate, index) => {
+      add(`${index + 1}. ${candidate.product.name}`,
+          'SELECT_PRODUCT', { product_id: candidate.product.product_id });
+    });
+  }
+  return bar.childElementCount ? bar : null;
+}
+
+function render(response) {
+  const turn = el('div', 'turn');
+  turn.appendChild(el('div', 'who', 'agent'));
+  turn.appendChild(el('div', 'msg', response.message));
+
+  const tags = el('div', 'tags');
+  tags.appendChild(tag(`intent: ${response.intent || '-'}`));
+  tags.appendChild(tag(`next: ${response.next_action}`));
+  tags.appendChild(tag(`phase: ${response.phase}`));
+  if (response.parse_source) tags.appendChild(tag(`parse: ${response.parse_source}`));
+  if (response.decision) {
+    const outcome = response.decision.outcome;
+    tags.appendChild(tag(`decision: ${outcome}`,
+                         outcome === 'APPROVE' ? 'good' : outcome === 'DENY' ? 'stop' : 'ask'));
+    tags.appendChild(tag(`policy: ${String(response.decision.policy_hash).slice(0, 18)}…`));
+  }
+  if (response.receipt) tags.appendChild(tag(`paid: HK$${(response.receipt.cash_total_cents / 100).toFixed(2)}`, 'good'));
+  if (response.denial) tags.appendChild(tag(`denied: ${response.denial.primary_reason}`, 'stop'));
+  if (response.payment_failure) tags.appendChild(tag(`payment: ${response.payment_failure.code}`, 'stop'));
+  if (response.quote) tags.appendChild(tag(`quote: HK$${(response.quote.merchant_total_cents / 100).toFixed(2)}`));
+  turn.appendChild(tags);
+
+  const card = payloadCard(response);
+  if (card) turn.appendChild(card);
+
+  const bar = controls(response);
+  if (bar) turn.appendChild(bar);
+
+  if (response.notes && response.notes.length) {
+    turn.appendChild(el('div', 'meta', response.notes.join(' · ')));
+  }
+  log.appendChild(turn);
+  window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+}
+
+function renderUser(text) {
+  const turn = el('div', 'turn user');
+  turn.appendChild(el('div', 'who', 'you'));
+  turn.appendChild(el('div', 'msg', text));
+  log.appendChild(turn);
+}
+
+function renderError(error, requestId) {
+  const turn = el('div', 'turn');
+  turn.appendChild(el('div', 'who', 'error'));
+  turn.appendChild(el('div', 'msg', `${error.code}: ${error.message}`));
+  turn.appendChild(el('div', 'meta', `request_id ${requestId}`));
+  const box = el('details');
+  box.appendChild(el('summary', null, 'error.details'));
+  box.appendChild(el('pre', null, JSON.stringify(error.details, null, 2)));
+  turn.appendChild(box);
+  log.appendChild(turn);
+}
+
+async function post(path, body) {
+  const reply = await fetch(path, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  });
+  const envelope = await reply.json();
+  if (!envelope.ok) { renderError(envelope.error, envelope.request_id); return null; }
+  return envelope.data;
+}
+
+async function sendAction(intent, handles) {
+  const data = await post('/api/v1/agent/actions',
+                          Object.assign({ session_id: sessionId, intent }, handles));
+  if (!data) return;
+  sessionId = data.session_id;
+  render(data);
+}
+
+document.getElementById('composer').addEventListener('submit', async (event) => {
+  event.preventDefault();
+  const input = document.getElementById('text');
+  const text = input.value.trim();
+  if (!text) return;
+  input.value = '';
+  renderUser(text);
+  const data = await post('/api/v1/agent/chat', { session_id: sessionId, message: text });
+  if (!data) return;
+  sessionId = data.session_id;
+  render(data);
+});
+</script>
+</body>
+</html>
