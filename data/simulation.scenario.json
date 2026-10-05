@@ -1,0 +1,20 @@
+{
+  "scenario_version": "D-integration-draft-2",
+  "platform": "JD",
+  "category": "headphones",
+  "observation_date": "2026-10-03",
+  "settlement_currency": "HKD",
+  "settlement_mode": "simulation",
+  "card_rule_subjects": [
+    "hsbc_student_gold_visa",
+    "hangseng_mmpower_mastercard"
+  ],
+  "real_checkout_enabled": false,
+  "reward_can_reduce_cash_authorisation": false,
+  "pending_A_contract_decisions": [
+    "Observation DTO ownership",
+    "VISA rail support (current public PaymentRail lacks VISA)",
+    "Source currency / FX extension for CNY JD listings"
+  ],
+  "product_snapshots_promoted_to_catalog": false
+}

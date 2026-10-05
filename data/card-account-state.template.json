@@ -1,0 +1,36 @@
+{
+  "template_only": true,
+  "do_not_treat_null_as_verified": true,
+  "settlement_mode": "simulation",
+  "accounts": [
+    {
+      "card_rule_subject_id": "hangseng_mmpower_mastercard",
+      "verified_state": {
+        "principal_id": null,
+        "card_owned": null,
+        "registration_date": null,
+        "eligible_student_proof": null,
+        "graduation_year": null,
+        "monthly_eligible_spend_HKD_minor": null,
+        "monthly_extra_reward_used_units": null,
+        "posted_merchant_code": null,
+        "payment_channel": null,
+        "days_until_posted": null,
+        "account_valid": null
+      }
+    },
+    {
+      "card_rule_subject_id": "hsbc_student_gold_visa",
+      "verified_state": {
+        "principal_id": null,
+        "card_owned": null,
+        "account_valid": null,
+        "eligible_transaction": null,
+        "posted_merchant_code": null,
+        "payment_channel": null,
+        "carry_remainder_HKD_minor": null
+      }
+    }
+  ],
+  "note": "C defines the final account-state contract and verifies ownership/eligibility. No real card number, CVV or account credentials are needed for this simulation."
+}

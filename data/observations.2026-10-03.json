@@ -1,0 +1,404 @@
+[
+  {
+    "evidence_status": "partial",
+    "kind": "product_snapshot",
+    "observation_id": "obs_20261003_jd_wf1000xm5_rose",
+    "observed_on": "2026-10-03",
+    "payload": {
+      "anc": true,
+      "battery_hours": null,
+      "brand": "Sony",
+      "connection": "wireless",
+      "form_factor": "in_ear",
+      "listed_currency": null,
+      "listed_price_minor": null,
+      "listing_condition": "unknown",
+      "merchant_id": null,
+      "merchant_name": null,
+      "model": "WF-1000XM5",
+      "platform": "JD",
+      "price_scope": "unknown",
+      "seller_description": "Enjoy wireless noise-cancelling listening with WF-1000XM5 in rose grey.",
+      "shipping_origin": null,
+      "stock": null,
+      "title": "Sony WF-1000XM5",
+      "untrusted_texts": [],
+      "use_cases": [],
+      "variant": "Rose grey",
+      "wearing_weight_g": null
+    },
+    "retrieved_at": "2026-10-03T08:49:07.661618+00:00",
+    "source_note": "Indexed JD listing title only; live page returned no usable product facts. Store label in index was not verified as merchant identity. English title/description paraphrase merchant claims; not independent performance verification. Retrieved_at is the lookup time, not the page price timestamp.",
+    "source_type": "OBSERVED_PUBLIC_SOURCE",
+    "source_url": "https://item.jd.com/100142816794.html",
+    "subject_id": "jd_wf1000xm5_rose"
+  },
+  {
+    "evidence_status": "partial",
+    "kind": "product_snapshot",
+    "observation_id": "obs_20261003_jd_wh1000xm5_blue",
+    "observed_on": "2026-10-03",
+    "payload": {
+      "anc": true,
+      "battery_hours": null,
+      "brand": "Sony",
+      "connection": "wireless",
+      "form_factor": "over_ear",
+      "listed_currency": null,
+      "listed_price_minor": null,
+      "listing_condition": "unknown",
+      "merchant_id": null,
+      "merchant_name": null,
+      "model": "WH-1000XM5",
+      "platform": "JD",
+      "price_scope": "unknown",
+      "seller_description": "Choose WH-1000XM5 for wireless over-ear listening with active noise cancellation.",
+      "shipping_origin": null,
+      "stock": null,
+      "title": "Sony WH-1000XM5",
+      "untrusted_texts": [],
+      "use_cases": [],
+      "variant": "Midnight blue",
+      "wearing_weight_g": null
+    },
+    "retrieved_at": "2026-10-03T08:49:07.661618+00:00",
+    "source_note": "Public JD title observed through web reader; cached 4 days earlier. Price, seller identity and dispatch location not confirmed. English title/description paraphrase merchant claims; not independent performance verification. Retrieved_at is the lookup time, not the page price timestamp.",
+    "source_type": "OBSERVED_PUBLIC_SOURCE",
+    "source_url": "https://item.jd.com/product/7jW2QuE-Gqhcp9JNJdbMnw.html",
+    "subject_id": "jd_wh1000xm5_blue"
+  },
+  {
+    "evidence_status": "partial",
+    "kind": "product_snapshot",
+    "observation_id": "obs_20261003_jd_redmi_buds6pro_esports",
+    "observed_on": "2026-10-03",
+    "payload": {
+      "anc": true,
+      "battery_hours": null,
+      "brand": "Xiaomi",
+      "connection": "wireless",
+      "form_factor": "in_ear",
+      "listed_currency": null,
+      "listed_price_minor": null,
+      "listing_condition": "unknown",
+      "merchant_id": null,
+      "merchant_name": null,
+      "model": "Redmi Buds 6 Pro",
+      "platform": "JD",
+      "price_scope": "unknown",
+      "seller_description": "Meet Redmi Buds 6 Pro: wireless in-ear listening with active noise cancellation.",
+      "shipping_origin": null,
+      "stock": null,
+      "title": "Redmi Buds 6 Pro",
+      "untrusted_texts": [],
+      "use_cases": [],
+      "variant": "Esports edition",
+      "wearing_weight_g": null
+    },
+    "retrieved_at": "2026-10-03T08:49:07.661618+00:00",
+    "source_note": "Search index title only; direct JD page redirected to verification. Indexed store name is not verified merchant identity. English title/description paraphrase merchant claims; not independent performance verification. Retrieved_at is the lookup time, not the page price timestamp.",
+    "source_type": "OBSERVED_PUBLIC_SOURCE",
+    "source_url": "https://item.jd.com/100155299370.html",
+    "subject_id": "jd_redmi_buds6pro_esports"
+  },
+  {
+    "evidence_status": "partial",
+    "kind": "product_snapshot",
+    "observation_id": "obs_20261003_jd_w820nb_dual_white",
+    "observed_on": "2026-10-03",
+    "payload": {
+      "anc": true,
+      "battery_hours": null,
+      "brand": "Edifier",
+      "connection": "wireless",
+      "form_factor": "over_ear",
+      "listed_currency": null,
+      "listed_price_minor": null,
+      "listing_condition": "unknown",
+      "merchant_id": null,
+      "merchant_name": null,
+      "model": "W820NB Dual Hi-Res",
+      "platform": "JD",
+      "price_scope": "unknown",
+      "seller_description": "Stay connected with W820NB wireless over-ear headphones and active noise cancellation.",
+      "shipping_origin": null,
+      "stock": null,
+      "title": "Edifier W820NB Dual Hi-Res",
+      "untrusted_texts": [],
+      "use_cases": [],
+      "variant": "Cloud white",
+      "wearing_weight_g": null
+    },
+    "retrieved_at": "2026-10-03T08:49:07.661618+00:00",
+    "source_note": "Public JD title read; reader cache from last week. Comments mix W820NB and W830NB; comment specs were excluded. English title/description paraphrase merchant claims; not independent performance verification. Retrieved_at is the lookup time, not the page price timestamp.",
+    "source_type": "OBSERVED_PUBLIC_SOURCE",
+    "source_url": "https://item.jd.com/product/rXOfY6wQSdpC28ahKp58hA.html",
+    "subject_id": "jd_w820nb_dual_white"
+  },
+  {
+    "evidence_status": "partial",
+    "kind": "product_snapshot",
+    "observation_id": "obs_20261003_jd_w820nb_triple_sand",
+    "observed_on": "2026-10-03",
+    "payload": {
+      "anc": true,
+      "battery_hours": null,
+      "brand": "Edifier",
+      "connection": "wireless",
+      "form_factor": "over_ear",
+      "listed_currency": null,
+      "listed_price_minor": null,
+      "listing_condition": "unknown",
+      "merchant_id": null,
+      "merchant_name": null,
+      "model": "W820NB Triple Hi-Res",
+      "platform": "JD",
+      "price_scope": "unknown",
+      "seller_description": "Discover W820NB wireless over-ear noise cancellation, with a colourful headphone bag.",
+      "shipping_origin": null,
+      "stock": null,
+      "title": "Edifier W820NB Triple Hi-Res",
+      "untrusted_texts": [],
+      "use_cases": [],
+      "variant": "Sand white with bag",
+      "wearing_weight_g": null
+    },
+    "retrieved_at": "2026-10-03T08:49:07.661618+00:00",
+    "source_note": "Public title read; cached 6 days earlier. Advertised battery and review rebate conditions unverified; no battery/rebate value imported. English title/description paraphrase merchant claims; not independent performance verification. Retrieved_at is the lookup time, not the page price timestamp.",
+    "source_type": "OBSERVED_PUBLIC_SOURCE",
+    "source_url": "https://item.jd.com/product/YSD30Kta-J3k0ot3Clk-Ew.html",
+    "subject_id": "jd_w820nb_triple_sand"
+  },
+  {
+    "evidence_status": "partial",
+    "kind": "product_snapshot",
+    "observation_id": "obs_20261003_jd_freebuds6i_used_purple",
+    "observed_on": "2026-10-03",
+    "payload": {
+      "anc": true,
+      "battery_hours": null,
+      "brand": "Huawei",
+      "connection": "wireless",
+      "form_factor": "in_ear",
+      "listed_currency": "CNY",
+      "listed_price_minor": 19691,
+      "listing_condition": "used",
+      "merchant_id": null,
+      "merchant_name": null,
+      "model": "FreeBuds 6i",
+      "platform": "JD",
+      "price_scope": "login_required",
+      "seller_description": "Try FreeBuds 6i wireless noise cancellation in purple; this listing is a used unit.",
+      "shipping_origin": null,
+      "stock": null,
+      "title": "Huawei FreeBuds 6i",
+      "untrusted_texts": [],
+      "use_cases": [],
+      "variant": "Purple, used 90% condition label",
+      "wearing_weight_g": null
+    },
+    "retrieved_at": "2026-10-03T08:49:07.661618+00:00",
+    "source_note": "Public page displays CNY196.91 but requires login for final price. Used/return labels are merchant claims; delivery destination is not dispatch origin. English title/description paraphrase merchant claims; not independent performance verification. Retrieved_at is the lookup time, not the page price timestamp.",
+    "source_type": "OBSERVED_PUBLIC_SOURCE",
+    "source_url": "https://item.jd.com/product/xouqAKSERO1o28cG9D_d1Q.html",
+    "subject_id": "jd_freebuds6i_used_purple"
+  },
+  {
+    "evidence_status": "partial",
+    "kind": "bank_rule",
+    "observation_id": "obs_20261003_hsbc_student_gold",
+    "observed_on": "2026-10-03",
+    "payload": {
+      "application_note": "2026 observation basis; basic programme is not asserted to expire then. No real card number stored. Reward is estimated future bill credit, not merchant discount or available funds.",
+      "card_id": "hsbc_student_gold_visa",
+      "claims": [
+        {
+          "key": "basic_spend_step_HKD_minor",
+          "source_locator": "Reward calculation example and note",
+          "source_url": "https://www.hsbc.com.hk/zh-hk/help/faq/credit-cards/rewards/",
+          "value": 25000,
+          "verification": "verified"
+        },
+        {
+          "key": "basic_reward_units_per_step",
+          "source_locator": "Reward calculation note",
+          "source_url": "https://www.hsbc.com.hk/zh-hk/help/faq/credit-cards/rewards/",
+          "value": 1,
+          "verification": "verified"
+        },
+        {
+          "key": "carry_remainder",
+          "source_locator": "Remainder question",
+          "source_url": "https://www.hsbc.com.hk/zh-hk/help/faq/credit-cards/rewards/",
+          "value": "Next transaction and next statement",
+          "verification": "verified"
+        },
+        {
+          "key": "reward_unit_bill_credit_HKD_minor",
+          "source_locator": "Use of RewardCash, item ii",
+          "source_url": "https://www.hsbc.com.hk/zh-hk/help/faq/credit-cards/rewards/",
+          "value": 100,
+          "verification": "verified"
+        },
+        {
+          "key": "world_category",
+          "source_locator": "Five categories, item 5",
+          "source_url": "https://www.hsbc.com.hk/zh-hk/help/faq/credit-cards/rewards/",
+          "value": "Foreign-currency spending outside Hong Kong",
+          "verification": "verified"
+        },
+        {
+          "key": "JD_HKD_scenario",
+          "source_locator": "Project user research; designated merchant list not independently fully checked",
+          "source_url": "https://www.hsbc.com.hk/zh-hk/help/faq/credit-cards/rewards/",
+          "value": "Basic only, subject to posted merchant/channel classification",
+          "verification": "inferred"
+        }
+      ],
+      "effective_from": "2026-01-01",
+      "effective_until": "2026-12-31",
+      "personal_state_fields": [
+        "principal_id",
+        "card_owned",
+        "account_valid",
+        "eligible_transaction",
+        "posted_merchant_code",
+        "payment_channel",
+        "carry_remainder_HKD_minor"
+      ],
+      "settlement_currency": "HKD",
+      "title": "HSBC Student Visa Gold - JD HKD scenario"
+    },
+    "retrieved_at": "2026-10-03T08:49:07.661618+00:00",
+    "source_note": "Official FAQ checked. Card identity comes from project user research. JD basic-only mapping is an inference pending merchant/channel verification.",
+    "source_type": "OBSERVED_PUBLIC_SOURCE",
+    "source_url": "https://www.hsbc.com.hk/zh-hk/help/faq/credit-cards/rewards/",
+    "subject_id": "hsbc_student_gold_visa"
+  },
+  {
+    "evidence_status": "partial",
+    "kind": "bank_rule",
+    "observation_id": "obs_20261003_hangseng_mmpower",
+    "observed_on": "2026-10-03",
+    "payload": {
+      "application_note": "Extracted scenario facts are not all exclusions. C must apply full linked English terms and account state. Estimated reward never reduces authorisation amount or available funds.",
+      "card_id": "hangseng_mmpower_mastercard",
+      "claims": [
+        {
+          "key": "registration",
+          "source_locator": "Clause 2",
+          "source_url": "https://www.hangseng.com/content/dam/wpb/hase/rwd/personal/cards/pdfs/everyday_tnc_en.pdf",
+          "value": "Once; first success counts; rewards from registration month",
+          "verification": "verified"
+        },
+        {
+          "key": "posting_deadline_days",
+          "source_locator": "Clause 2",
+          "source_url": "https://www.hangseng.com/content/dam/wpb/hase/rwd/personal/cards/pdfs/everyday_tnc_en.pdf",
+          "value": 15,
+          "verification": "verified"
+        },
+        {
+          "key": "monthly_spend_threshold_HKD_minor",
+          "source_locator": "Clause 3",
+          "source_url": "https://www.hangseng.com/content/dam/wpb/hase/rwd/personal/cards/pdfs/everyday_tnc_en.pdf",
+          "value": 300000,
+          "verification": "verified"
+        },
+        {
+          "key": "student_waiver",
+          "source_locator": "Clauses 3, 3a",
+          "source_url": "https://www.hangseng.com/content/dam/wpb/hase/rwd/personal/cards/pdfs/everyday_tnc_en.pdf",
+          "value": "Eligible institution/course; until graduation-year end; application documents final",
+          "verification": "verified"
+        },
+        {
+          "key": "online_retail_total_rate_bps",
+          "source_locator": "Clause 4c, includes basic 40bps",
+          "source_url": "https://www.hangseng.com/content/dam/wpb/hase/rwd/personal/cards/pdfs/everyday_tnc_en.pdf",
+          "value": 500,
+          "verification": "verified"
+        },
+        {
+          "key": "online_retail_extra_rate_bps",
+          "source_locator": "Derived 500 minus 40bps",
+          "source_url": "https://www.hangseng.com/content/dam/wpb/hase/rwd/personal/cards/pdfs/everyday_tnc_en.pdf",
+          "value": 460,
+          "verification": "inferred"
+        },
+        {
+          "key": "monthly_extra_cap_reward_units",
+          "source_locator": "Clause 8; account-wide, principal/supplementary combined",
+          "source_url": "https://www.hangseng.com/content/dam/wpb/hase/rwd/personal/cards/pdfs/everyday_tnc_en.pdf",
+          "value": 500,
+          "verification": "verified"
+        },
+        {
+          "key": "rounding_and_credit",
+          "source_locator": "Clauses 9, 10",
+          "source_url": "https://www.hangseng.com/content/dam/wpb/hase/rwd/personal/cards/pdfs/everyday_tnc_en.pdf",
+          "value": "Monthly net spend; floor reward units; credit within two calendar months",
+          "verification": "verified"
+        },
+        {
+          "key": "channels_excluded",
+          "source_locator": "Clause 6, non-exhaustive exclusions",
+          "source_url": "https://www.hangseng.com/content/dam/wpb/hase/rwd/personal/cards/pdfs/everyday_tnc_en.pdf",
+          "value": [
+            "Alipay",
+            "WeChat Pay"
+          ],
+          "verification": "verified"
+        },
+        {
+          "key": "reward_transfer",
+          "source_locator": "Clause 11",
+          "source_url": "https://www.hangseng.com/content/dam/wpb/hase/rwd/personal/cards/pdfs/everyday_tnc_en.pdf",
+          "value": "Non-transferable; cannot be converted into cash",
+          "verification": "verified"
+        },
+        {
+          "key": "category_priority",
+          "source_locator": "Clause 5",
+          "source_url": "https://www.hangseng.com/content/dam/wpb/hase/rwd/personal/cards/pdfs/everyday_tnc_en.pdf",
+          "value": [
+            "4a",
+            "4b",
+            "4c",
+            "4d"
+          ],
+          "verification": "verified"
+        },
+        {
+          "key": "JD_HKD_scenario",
+          "source_locator": "Clauses 4c, 15; project inference",
+          "source_url": "https://www.hangseng.com/content/dam/wpb/hase/rwd/personal/cards/pdfs/everyday_tnc_en.pdf",
+          "value": "Conditional other-online-retail; bank coding decides",
+          "verification": "inferred"
+        }
+      ],
+      "effective_from": "2026-04-01",
+      "effective_until": "2026-12-31",
+      "personal_state_fields": [
+        "principal_id",
+        "card_owned",
+        "registration_date",
+        "eligible_student_proof",
+        "graduation_year",
+        "monthly_eligible_spend_HKD_minor",
+        "monthly_extra_reward_used_units",
+        "posted_merchant_code",
+        "payment_channel",
+        "days_until_posted",
+        "account_valid"
+      ],
+      "settlement_currency": "HKD",
+      "title": "Hang Seng MMPOWER - JD HKD scenario"
+    },
+    "retrieved_at": "2026-10-03T08:49:07.661618+00:00",
+    "source_note": "Official English April 2026 terms checked, clauses recorded. JD classification and 460bps are explicit inferences. Personal eligibility is unknown.",
+    "source_type": "OBSERVED_PUBLIC_SOURCE",
+    "source_url": "https://www.hangseng.com/content/dam/wpb/hase/rwd/personal/cards/pdfs/everyday_tnc_en.pdf",
+    "subject_id": "hangseng_mmpower_mastercard"
+  }
+]

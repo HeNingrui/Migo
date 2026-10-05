@@ -1,0 +1,242 @@
+[
+  {
+    "product_id": "hp_0001",
+    "average_rating": 4.0,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0002",
+    "average_rating": 3.7,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0003",
+    "average_rating": 4.7,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0004",
+    "average_rating": 4.0,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0005",
+    "average_rating": 1.8,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0006",
+    "average_rating": 3.6,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0007",
+    "average_rating": 4.0,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0008",
+    "average_rating": 4.6,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0009",
+    "average_rating": 3.8,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0010",
+    "average_rating": 3.2,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0011",
+    "average_rating": 4.2,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0012",
+    "average_rating": 1.8,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0013",
+    "average_rating": 3.5,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0014",
+    "average_rating": 4.6,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0015",
+    "average_rating": 3.9,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0016",
+    "average_rating": 3.4,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0017",
+    "average_rating": 3.8,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0018",
+    "average_rating": 4.1,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0019",
+    "average_rating": 3.5,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0020",
+    "average_rating": 1.8,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0021",
+    "average_rating": 3.8,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0022",
+    "average_rating": 4.7,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0023",
+    "average_rating": 4.1,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0024",
+    "average_rating": 3.1,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0025",
+    "average_rating": 4.0,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0026",
+    "average_rating": 3.4,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0027",
+    "average_rating": 3.8,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0028",
+    "average_rating": 2.9,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0029",
+    "average_rating": 1.7,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0030",
+    "average_rating": 3.8,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0031",
+    "average_rating": 4.1,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0032",
+    "average_rating": 3.8,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0033",
+    "average_rating": 3.4,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0034",
+    "average_rating": 4.2,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0035",
+    "average_rating": 3.3,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0036",
+    "average_rating": 4.6,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0037",
+    "average_rating": 1.7,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0038",
+    "average_rating": 4.1,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0039",
+    "average_rating": 3.0,
+    "review_count": 10,
+    "rating_scale": 5.0
+  },
+  {
+    "product_id": "hp_0040",
+    "average_rating": 4.0,
+    "review_count": 10,
+    "rating_scale": 5.0
+  }
+]

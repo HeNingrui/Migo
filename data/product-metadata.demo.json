@@ -1,0 +1,795 @@
+[
+  {
+    "product_id": "hp_0001",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "black",
+      "wireless",
+      "in_ear",
+      "commute",
+      "study",
+      "music",
+      "calls",
+      "anc"
+    ],
+    "estimated_delivery_days": 2,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0002",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet",
+      "game_console"
+    ],
+    "tags": [
+      "black",
+      "wired",
+      "over_ear",
+      "gaming",
+      "calls"
+    ],
+    "estimated_delivery_days": 3,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0003",
+    "color": "silver",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "silver",
+      "wireless",
+      "over_ear",
+      "commute",
+      "study",
+      "music",
+      "anc"
+    ],
+    "estimated_delivery_days": 4,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0004",
+    "color": "blue",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "blue",
+      "wireless",
+      "open_ear",
+      "sports",
+      "calls"
+    ],
+    "estimated_delivery_days": 5,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0005",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "black",
+      "wireless",
+      "in_ear",
+      "commute",
+      "anc"
+    ],
+    "estimated_delivery_days": 2,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0006",
+    "color": "white",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "white",
+      "wireless",
+      "in_ear",
+      "music"
+    ],
+    "estimated_delivery_days": 3,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0007",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "black",
+      "wireless",
+      "over_ear",
+      "commute",
+      "study",
+      "anc"
+    ],
+    "estimated_delivery_days": 4,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0008",
+    "color": "white",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "white",
+      "wireless",
+      "in_ear",
+      "commute",
+      "study",
+      "music",
+      "calls",
+      "anc"
+    ],
+    "estimated_delivery_days": 5,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0009",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "black",
+      "wireless",
+      "in_ear",
+      "study",
+      "music"
+    ],
+    "estimated_delivery_days": 2,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0010",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet",
+      "game_console"
+    ],
+    "tags": [
+      "black",
+      "wired",
+      "over_ear",
+      "study",
+      "music"
+    ],
+    "estimated_delivery_days": 3,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0011",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "black",
+      "wireless",
+      "open_ear",
+      "sports",
+      "calls",
+      "commute"
+    ],
+    "estimated_delivery_days": 4,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0012",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "black",
+      "wireless",
+      "in_ear",
+      "study",
+      "music",
+      "commute"
+    ],
+    "estimated_delivery_days": 5,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0013",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "black",
+      "wireless",
+      "over_ear",
+      "study",
+      "music",
+      "commute"
+    ],
+    "estimated_delivery_days": 2,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0014",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "black",
+      "wireless",
+      "open_ear",
+      "sports",
+      "calls",
+      "commute"
+    ],
+    "estimated_delivery_days": 3,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0015",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet",
+      "game_console"
+    ],
+    "tags": [
+      "black",
+      "wired",
+      "in_ear",
+      "study",
+      "music"
+    ],
+    "estimated_delivery_days": 4,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0016",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "black",
+      "wireless",
+      "over_ear",
+      "study",
+      "music"
+    ],
+    "estimated_delivery_days": 5,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0017",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "black",
+      "wireless",
+      "open_ear",
+      "sports",
+      "calls"
+    ],
+    "estimated_delivery_days": 2,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0018",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "black",
+      "wireless",
+      "in_ear",
+      "study",
+      "music",
+      "anc"
+    ],
+    "estimated_delivery_days": 3,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0019",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "black",
+      "wireless",
+      "over_ear",
+      "study",
+      "music",
+      "commute"
+    ],
+    "estimated_delivery_days": 4,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0020",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet",
+      "game_console"
+    ],
+    "tags": [
+      "black",
+      "wired",
+      "open_ear",
+      "sports",
+      "calls"
+    ],
+    "estimated_delivery_days": 5,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0021",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "black",
+      "wireless",
+      "in_ear",
+      "study",
+      "music",
+      "commute"
+    ],
+    "estimated_delivery_days": 2,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0022",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "black",
+      "wireless",
+      "over_ear",
+      "study",
+      "music",
+      "commute",
+      "anc"
+    ],
+    "estimated_delivery_days": 3,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0023",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "black",
+      "wireless",
+      "open_ear",
+      "sports",
+      "calls"
+    ],
+    "estimated_delivery_days": 4,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0024",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "black",
+      "wireless",
+      "in_ear",
+      "study",
+      "music"
+    ],
+    "estimated_delivery_days": 5,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0025",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet",
+      "game_console"
+    ],
+    "tags": [
+      "black",
+      "wired",
+      "over_ear",
+      "study",
+      "music"
+    ],
+    "estimated_delivery_days": 2,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0026",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "black",
+      "wireless",
+      "open_ear",
+      "sports",
+      "calls",
+      "commute"
+    ],
+    "estimated_delivery_days": 3,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0027",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "black",
+      "wireless",
+      "in_ear",
+      "study",
+      "music",
+      "commute"
+    ],
+    "estimated_delivery_days": 4,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0028",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "black",
+      "wireless",
+      "over_ear",
+      "study",
+      "music",
+      "commute"
+    ],
+    "estimated_delivery_days": 5,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0029",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "black",
+      "wireless",
+      "open_ear",
+      "sports",
+      "calls",
+      "commute"
+    ],
+    "estimated_delivery_days": 2,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0030",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet",
+      "game_console"
+    ],
+    "tags": [
+      "black",
+      "wired",
+      "in_ear",
+      "study",
+      "music"
+    ],
+    "estimated_delivery_days": 3,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0031",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "black",
+      "wireless",
+      "over_ear",
+      "study",
+      "music"
+    ],
+    "estimated_delivery_days": 4,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0032",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "black",
+      "wireless",
+      "open_ear",
+      "sports",
+      "calls"
+    ],
+    "estimated_delivery_days": 5,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0033",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "black",
+      "wireless",
+      "in_ear",
+      "study",
+      "music"
+    ],
+    "estimated_delivery_days": 2,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0034",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "black",
+      "wireless",
+      "over_ear",
+      "study",
+      "music",
+      "commute",
+      "anc"
+    ],
+    "estimated_delivery_days": 3,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0035",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet",
+      "game_console"
+    ],
+    "tags": [
+      "black",
+      "wired",
+      "open_ear",
+      "sports",
+      "calls"
+    ],
+    "estimated_delivery_days": 4,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0036",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "black",
+      "wireless",
+      "in_ear",
+      "study",
+      "music",
+      "commute"
+    ],
+    "estimated_delivery_days": 5,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0037",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "black",
+      "wireless",
+      "over_ear",
+      "study",
+      "music",
+      "commute"
+    ],
+    "estimated_delivery_days": 2,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0038",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "black",
+      "wireless",
+      "open_ear",
+      "sports",
+      "calls"
+    ],
+    "estimated_delivery_days": 3,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0039",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet"
+    ],
+    "tags": [
+      "black",
+      "wireless",
+      "in_ear",
+      "study",
+      "music"
+    ],
+    "estimated_delivery_days": 4,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  },
+  {
+    "product_id": "hp_0040",
+    "color": "black",
+    "supported_devices": [
+      "phone",
+      "computer",
+      "tablet",
+      "game_console"
+    ],
+    "tags": [
+      "black",
+      "wired",
+      "over_ear",
+      "study",
+      "music"
+    ],
+    "estimated_delivery_days": 5,
+    "source_type": "demo",
+    "data_note": "Fictional compatibility and delivery estimates for this simulation, not verified real product claims."
+  }
+]
