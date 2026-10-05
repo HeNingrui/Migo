@@ -1,0 +1,3683 @@
+{
+  "dataset_id": "headphones-reviews-v3-2026-10-03",
+  "source_type": "demo",
+  "rating_scale": 5.0,
+  "review_count": 400,
+  "product_count": 40,
+  "manipulated_review_count": 70,
+  "affected_products": [
+    {
+      "product_id": "hp_0003",
+      "campaign_direction": "boost",
+      "manipulated_review_count": 7
+    },
+    {
+      "product_id": "hp_0008",
+      "campaign_direction": "boost",
+      "manipulated_review_count": 7
+    },
+    {
+      "product_id": "hp_0014",
+      "campaign_direction": "boost",
+      "manipulated_review_count": 7
+    },
+    {
+      "product_id": "hp_0022",
+      "campaign_direction": "boost",
+      "manipulated_review_count": 7
+    },
+    {
+      "product_id": "hp_0036",
+      "campaign_direction": "boost",
+      "manipulated_review_count": 7
+    },
+    {
+      "product_id": "hp_0005",
+      "campaign_direction": "attack",
+      "manipulated_review_count": 7
+    },
+    {
+      "product_id": "hp_0012",
+      "campaign_direction": "attack",
+      "manipulated_review_count": 7
+    },
+    {
+      "product_id": "hp_0020",
+      "campaign_direction": "attack",
+      "manipulated_review_count": 7
+    },
+    {
+      "product_id": "hp_0029",
+      "campaign_direction": "attack",
+      "manipulated_review_count": 7
+    },
+    {
+      "product_id": "hp_0037",
+      "campaign_direction": "attack",
+      "manipulated_review_count": 7
+    }
+  ],
+  "note": "Evaluation answers only. Do not include this file in agent input, prompts or public API responses.",
+  "labels": [
+    {
+      "review_id": "rev_8f43d06f0737d6b0",
+      "product_id": "hp_0001",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_d659a509fe838288",
+      "product_id": "hp_0001",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_742d6eb090d51a0e",
+      "product_id": "hp_0001",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_858b6b99c23efd59",
+      "product_id": "hp_0001",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_c2828363b45c7f6f",
+      "product_id": "hp_0001",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_b2b348721a65ccc0",
+      "product_id": "hp_0001",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_9be7175eafead745",
+      "product_id": "hp_0001",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_bce0026f7c2edde3",
+      "product_id": "hp_0001",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_86c4d968681d393c",
+      "product_id": "hp_0001",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_5fa555ddec723e90",
+      "product_id": "hp_0001",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_23e2eda596b0d3dd",
+      "product_id": "hp_0002",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_97462474424f0e44",
+      "product_id": "hp_0002",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_536b9699a45648a3",
+      "product_id": "hp_0002",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_15dc80b13a2f42fa",
+      "product_id": "hp_0002",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_c48423eff156ec3e",
+      "product_id": "hp_0002",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_fb593f4812a6cfbd",
+      "product_id": "hp_0002",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_34a69ba3632dc705",
+      "product_id": "hp_0002",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_3a98abea068ffe2f",
+      "product_id": "hp_0002",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_3268adf3ef5126d6",
+      "product_id": "hp_0002",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_316456f40de03fcd",
+      "product_id": "hp_0002",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_caf2f74ce48177ad",
+      "product_id": "hp_0003",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_daa26348507b97de",
+      "product_id": "hp_0003",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_05219ce15984a499",
+      "product_id": "hp_0003",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_49ea79a7b4d23f8c",
+      "product_id": "hp_0003",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_ea5ad7542f2aed41",
+      "product_id": "hp_0003",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_1bd14dc37d498a8e",
+      "product_id": "hp_0003",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_93b4d32b64bbb201",
+      "product_id": "hp_0003",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_17b41ce28e9fd5c5",
+      "product_id": "hp_0003",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_f0bd5878a1cf7c23",
+      "product_id": "hp_0003",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_41625ddb0c97a6f8",
+      "product_id": "hp_0003",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_955bcbb27c3aa1c0",
+      "product_id": "hp_0004",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_3c7262f316974e16",
+      "product_id": "hp_0004",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_69e6b1ac68fe13b4",
+      "product_id": "hp_0004",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_a3e6c77598f23fde",
+      "product_id": "hp_0004",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_aa764c77513e34e4",
+      "product_id": "hp_0004",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_e5b9c5500598b213",
+      "product_id": "hp_0004",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_0c7a0ab488175371",
+      "product_id": "hp_0004",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_4ce6979b386c7982",
+      "product_id": "hp_0004",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_45bbea30f3f4a0b1",
+      "product_id": "hp_0004",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_dd210e0d05141673",
+      "product_id": "hp_0004",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_f1c8c545e362fcdd",
+      "product_id": "hp_0005",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_2449a91feced09f9",
+      "product_id": "hp_0005",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_26f285d80628ebd0",
+      "product_id": "hp_0005",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_d9c8bb08bf1f2656",
+      "product_id": "hp_0005",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_9a57e220a4d2a63d",
+      "product_id": "hp_0005",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_aa3e236c0b35b53c",
+      "product_id": "hp_0005",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_b1027f859e4ef695",
+      "product_id": "hp_0005",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_dbd1b038e89cfb64",
+      "product_id": "hp_0005",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_de0ff1ac80707802",
+      "product_id": "hp_0005",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_7a8ae069d9db82d2",
+      "product_id": "hp_0005",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_60d00ca6c65340d4",
+      "product_id": "hp_0006",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_a0faa41109fb5ef7",
+      "product_id": "hp_0006",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_8ea1948d576f8006",
+      "product_id": "hp_0006",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_53fd78231bcb8d07",
+      "product_id": "hp_0006",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_3443ca0c9b0e7e64",
+      "product_id": "hp_0006",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_77b045a4aa5449b1",
+      "product_id": "hp_0006",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_ada79f5827e77793",
+      "product_id": "hp_0006",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_fa8846b30376c418",
+      "product_id": "hp_0006",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_4ab822c1c1a1d150",
+      "product_id": "hp_0006",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_b21d539b971684bb",
+      "product_id": "hp_0006",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_55cfda6aafa9d3db",
+      "product_id": "hp_0007",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_d35a9833b35b7464",
+      "product_id": "hp_0007",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_83689f7041a02c88",
+      "product_id": "hp_0007",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_0981b073b015af3c",
+      "product_id": "hp_0007",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_acc1d74aa0b2cec9",
+      "product_id": "hp_0007",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_40bdc40e99c73834",
+      "product_id": "hp_0007",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_cde092baeb03e228",
+      "product_id": "hp_0007",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_d50bbc6c61b20215",
+      "product_id": "hp_0007",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_5ac6e944a29a1b0b",
+      "product_id": "hp_0007",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_242097f05d929123",
+      "product_id": "hp_0007",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_25ff7265aa0589de",
+      "product_id": "hp_0008",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_5d2634c90a8390e9",
+      "product_id": "hp_0008",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_35091fe934deedd6",
+      "product_id": "hp_0008",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_a951f1bf0c019121",
+      "product_id": "hp_0008",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_49b0aab3425dac68",
+      "product_id": "hp_0008",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_ff3a2d1593575de4",
+      "product_id": "hp_0008",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_cd094f8a9fdbe342",
+      "product_id": "hp_0008",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_255ab0039c09e2c9",
+      "product_id": "hp_0008",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_5d5414b327a419ff",
+      "product_id": "hp_0008",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_da619f2343ae5090",
+      "product_id": "hp_0008",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_0dbf97082aad8cd7",
+      "product_id": "hp_0009",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_b0b29c9233a27083",
+      "product_id": "hp_0009",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_9ea03e243a3f16e9",
+      "product_id": "hp_0009",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_cfa9610b3070f678",
+      "product_id": "hp_0009",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_eb34ea49fa24fe1c",
+      "product_id": "hp_0009",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_c63f653cb73911fc",
+      "product_id": "hp_0009",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_23be6c5ac3f00ebf",
+      "product_id": "hp_0009",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_7b4170f997f49d89",
+      "product_id": "hp_0009",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_f1b17d31237115a4",
+      "product_id": "hp_0009",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_ebafd43262b421c9",
+      "product_id": "hp_0009",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_f7158451d7af669e",
+      "product_id": "hp_0010",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_9d61fe19283e2c73",
+      "product_id": "hp_0010",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_2e26c6da9bf4eeec",
+      "product_id": "hp_0010",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_848cc73ce061b2c0",
+      "product_id": "hp_0010",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_56fcb31fe2c00228",
+      "product_id": "hp_0010",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_fc059291b9ece36c",
+      "product_id": "hp_0010",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_fea128b65c85dcad",
+      "product_id": "hp_0010",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_82dc155869f7bed0",
+      "product_id": "hp_0010",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_fb5277f9f3c18037",
+      "product_id": "hp_0010",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_47165dbb5bda7913",
+      "product_id": "hp_0010",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_0e41acf1c222142d",
+      "product_id": "hp_0011",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_8937617c7cf66661",
+      "product_id": "hp_0011",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_18a7805d4c56b2d2",
+      "product_id": "hp_0011",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_e026fbae42cb019b",
+      "product_id": "hp_0011",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_108c0de6c37c9680",
+      "product_id": "hp_0011",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_f4e78e8c94a37b21",
+      "product_id": "hp_0011",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_58998cfa5809c95f",
+      "product_id": "hp_0011",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_f4b6380b2dda17b8",
+      "product_id": "hp_0011",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_c4c5a0b2e890cb08",
+      "product_id": "hp_0011",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_bf45a233669dcff8",
+      "product_id": "hp_0011",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_3bb60639262ed0b0",
+      "product_id": "hp_0012",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_cb5c1999b5c41920",
+      "product_id": "hp_0012",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_f97acd32005e056e",
+      "product_id": "hp_0012",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_4908bd0e7cf07138",
+      "product_id": "hp_0012",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_ca40023aff16c850",
+      "product_id": "hp_0012",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_9b510e8c1b9a80e6",
+      "product_id": "hp_0012",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_392edaf0b53903ce",
+      "product_id": "hp_0012",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_8d3889d83d0c435c",
+      "product_id": "hp_0012",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_eddabdbd26ac682d",
+      "product_id": "hp_0012",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_a277ada5ce120498",
+      "product_id": "hp_0012",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_a40b96801702d869",
+      "product_id": "hp_0013",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_d4300266c2d5cb32",
+      "product_id": "hp_0013",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_c8aa411f7785946a",
+      "product_id": "hp_0013",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_f619d678c0129560",
+      "product_id": "hp_0013",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_480959787029075d",
+      "product_id": "hp_0013",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_73808556daddeb81",
+      "product_id": "hp_0013",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_a4beb0d43a159f33",
+      "product_id": "hp_0013",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_2e36ab31eb16eabf",
+      "product_id": "hp_0013",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_06f3db6645212614",
+      "product_id": "hp_0013",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_7a321bc7a9cc82b8",
+      "product_id": "hp_0013",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_ad7cdb481a4941f6",
+      "product_id": "hp_0014",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_2ef9aa1435580b0f",
+      "product_id": "hp_0014",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_68131179da9ba66a",
+      "product_id": "hp_0014",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_374cda48c9343ebe",
+      "product_id": "hp_0014",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_3b018dc5fbd055bc",
+      "product_id": "hp_0014",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_a0c05b5f0dfbb428",
+      "product_id": "hp_0014",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_f9f097fddc7597ca",
+      "product_id": "hp_0014",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_60d641a3074b8903",
+      "product_id": "hp_0014",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_20ba67b16b5be4ec",
+      "product_id": "hp_0014",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_8607f3b198269e0e",
+      "product_id": "hp_0014",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_baab352b8db48eb4",
+      "product_id": "hp_0015",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_310f06254fd718c4",
+      "product_id": "hp_0015",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_daf617c96022423c",
+      "product_id": "hp_0015",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_eaa4dbba0e6199b4",
+      "product_id": "hp_0015",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_020dca6c18d3858f",
+      "product_id": "hp_0015",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_9eb52a408bc675db",
+      "product_id": "hp_0015",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_5f78a1760b167841",
+      "product_id": "hp_0015",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_a25caa4400cb9cd7",
+      "product_id": "hp_0015",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_7a28fd9db24144ed",
+      "product_id": "hp_0015",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_1927a484b06a9a01",
+      "product_id": "hp_0015",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_1604d867fb971268",
+      "product_id": "hp_0016",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_d6e0f3424b7939c0",
+      "product_id": "hp_0016",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_47adc89057eaef65",
+      "product_id": "hp_0016",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_619675823544a15d",
+      "product_id": "hp_0016",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_b24bf664e3b51eef",
+      "product_id": "hp_0016",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_10e5cff23f0d5374",
+      "product_id": "hp_0016",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_a0466041a08feb18",
+      "product_id": "hp_0016",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_958629d5efc7be1e",
+      "product_id": "hp_0016",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_f20533f962e24021",
+      "product_id": "hp_0016",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_ad61981195f14db6",
+      "product_id": "hp_0016",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_c5005d06de54e074",
+      "product_id": "hp_0017",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_94160b0c637b1812",
+      "product_id": "hp_0017",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_8b7ff8a0c875540f",
+      "product_id": "hp_0017",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_21e0c4da745914ce",
+      "product_id": "hp_0017",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_76e8384f481cc02f",
+      "product_id": "hp_0017",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_95df44b253de7191",
+      "product_id": "hp_0017",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_960950723ceed399",
+      "product_id": "hp_0017",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_35d8980d3d123333",
+      "product_id": "hp_0017",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_04af9a0660e29598",
+      "product_id": "hp_0017",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_f1fd7861c3d5bec8",
+      "product_id": "hp_0017",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_981f0201cdfa5e81",
+      "product_id": "hp_0018",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_cb717b3faf950d4f",
+      "product_id": "hp_0018",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_550c42f7d5dd45b2",
+      "product_id": "hp_0018",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_7bce3fa6358d098a",
+      "product_id": "hp_0018",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_29fa0a3df5d97635",
+      "product_id": "hp_0018",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_d10f437989ff44f8",
+      "product_id": "hp_0018",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_7fc58d40bc022813",
+      "product_id": "hp_0018",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_aad770044cadc23a",
+      "product_id": "hp_0018",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_688cc05dfaecd033",
+      "product_id": "hp_0018",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_7b5ec1454e3e353e",
+      "product_id": "hp_0018",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_f386700da6c8e794",
+      "product_id": "hp_0019",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_2f245229832bd0b2",
+      "product_id": "hp_0019",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_7ea705466b4c3603",
+      "product_id": "hp_0019",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_1f6bd12bc1c1f05d",
+      "product_id": "hp_0019",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_d45460c63dfc0516",
+      "product_id": "hp_0019",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_300b86bf06402521",
+      "product_id": "hp_0019",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_e776d39a5d18404e",
+      "product_id": "hp_0019",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_6b538c4838cec8dd",
+      "product_id": "hp_0019",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_6172bd8a83e656be",
+      "product_id": "hp_0019",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_4d68c81a71abb772",
+      "product_id": "hp_0019",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_9bb5a70a417dd5bd",
+      "product_id": "hp_0020",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_a18d720c4d5ee635",
+      "product_id": "hp_0020",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_e7a6277b54334eef",
+      "product_id": "hp_0020",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_03932d3769aeed77",
+      "product_id": "hp_0020",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_5a577ed536350d3b",
+      "product_id": "hp_0020",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_e7da33ead5aa67f0",
+      "product_id": "hp_0020",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_6ba03034502ba50e",
+      "product_id": "hp_0020",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_c2d7145981926189",
+      "product_id": "hp_0020",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_03428ac134f2c35b",
+      "product_id": "hp_0020",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_2c733d8a5e74b3c6",
+      "product_id": "hp_0020",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_9e4d23795fecb021",
+      "product_id": "hp_0021",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_80592b8fee2130ea",
+      "product_id": "hp_0021",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_c631e82b7515de69",
+      "product_id": "hp_0021",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_4aa5704f35c120ad",
+      "product_id": "hp_0021",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_33387f05c40b3529",
+      "product_id": "hp_0021",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_aa609bd449069b7f",
+      "product_id": "hp_0021",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_43f1ae98ba64a111",
+      "product_id": "hp_0021",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_eb0e3551da4986ce",
+      "product_id": "hp_0021",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_5586a1c0fef4741c",
+      "product_id": "hp_0021",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_3b2f3f87abec96f3",
+      "product_id": "hp_0021",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_4a80eeddd83bcdef",
+      "product_id": "hp_0022",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_a97d0fb95dcbad4e",
+      "product_id": "hp_0022",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_6dcccd29fbc7b096",
+      "product_id": "hp_0022",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_2578e75f929ca565",
+      "product_id": "hp_0022",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_4853e95cd4730da7",
+      "product_id": "hp_0022",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_078a4a5a20af227c",
+      "product_id": "hp_0022",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_f2154f0cdb167e5c",
+      "product_id": "hp_0022",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_6a634aea8a952b8a",
+      "product_id": "hp_0022",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_0c97cb62f73300c1",
+      "product_id": "hp_0022",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_b76250e77ce2f97e",
+      "product_id": "hp_0022",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_48b940ffe8e1a0a2",
+      "product_id": "hp_0023",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_694a29d1169a3044",
+      "product_id": "hp_0023",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_4f0adde1d92133d2",
+      "product_id": "hp_0023",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_a2510b1ef1c263fc",
+      "product_id": "hp_0023",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_ec08e88ea572365b",
+      "product_id": "hp_0023",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_70d8b71a7bd18910",
+      "product_id": "hp_0023",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_9c379accab8fda6b",
+      "product_id": "hp_0023",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_626a4b3e7b7b38ce",
+      "product_id": "hp_0023",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_4e108cb1cef15cdf",
+      "product_id": "hp_0023",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_ac72c1ce227fbe4a",
+      "product_id": "hp_0023",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_6d3993acb29cf61f",
+      "product_id": "hp_0024",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_31fae37905e652c5",
+      "product_id": "hp_0024",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_189aae222aeecf28",
+      "product_id": "hp_0024",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_cc153872599c6aab",
+      "product_id": "hp_0024",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_be7d214a7a0db201",
+      "product_id": "hp_0024",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_fa256a3d981c2e18",
+      "product_id": "hp_0024",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_05d961562f6d8adb",
+      "product_id": "hp_0024",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_b7c7aed4ba970bb9",
+      "product_id": "hp_0024",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_bcdfd8b192808427",
+      "product_id": "hp_0024",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_56b47fda5959a93a",
+      "product_id": "hp_0024",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_c6d017a7e4aa8776",
+      "product_id": "hp_0025",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_423e3d48bbd2390d",
+      "product_id": "hp_0025",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_e5793d87a0314185",
+      "product_id": "hp_0025",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_5ad351b5d706e84e",
+      "product_id": "hp_0025",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_7642c30703b82943",
+      "product_id": "hp_0025",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_1ceaf832ece41535",
+      "product_id": "hp_0025",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_6b317e02ae530352",
+      "product_id": "hp_0025",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_699d98f15d849806",
+      "product_id": "hp_0025",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_35ed8602f2635292",
+      "product_id": "hp_0025",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_f0f106f0e46f43f6",
+      "product_id": "hp_0025",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_182b081787231fd2",
+      "product_id": "hp_0026",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_d59873af57b64b71",
+      "product_id": "hp_0026",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_34a1938608a85189",
+      "product_id": "hp_0026",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_9954dc1f2fe72d4f",
+      "product_id": "hp_0026",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_484811108fa47af3",
+      "product_id": "hp_0026",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_2590932542adeff8",
+      "product_id": "hp_0026",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_7c7a02072976cd4d",
+      "product_id": "hp_0026",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_939990426872ced0",
+      "product_id": "hp_0026",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_30a3c53ae1a1eb4d",
+      "product_id": "hp_0026",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_978955f6ce92afbd",
+      "product_id": "hp_0026",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_4a9f980d7df693b8",
+      "product_id": "hp_0027",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_b9bb5a9f43bd7655",
+      "product_id": "hp_0027",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_7b339a6d41496278",
+      "product_id": "hp_0027",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_4eebe53f2ae2f8b5",
+      "product_id": "hp_0027",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_36e2a05ad6190ac7",
+      "product_id": "hp_0027",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_77910ca8b83b40a3",
+      "product_id": "hp_0027",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_893b1b3035eae835",
+      "product_id": "hp_0027",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_57f5aefb47efcbdf",
+      "product_id": "hp_0027",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_ebfff37f9fdfb496",
+      "product_id": "hp_0027",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_5adbb6e45ea249d7",
+      "product_id": "hp_0027",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_0ef2868f298ed91c",
+      "product_id": "hp_0028",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_0a2cf58a1b565591",
+      "product_id": "hp_0028",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_024d4e0d7af8622d",
+      "product_id": "hp_0028",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_8f88c30a1eda5550",
+      "product_id": "hp_0028",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_c8b09ffdd450b988",
+      "product_id": "hp_0028",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_bb556157c72c86c9",
+      "product_id": "hp_0028",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_e96970d7a0e15f52",
+      "product_id": "hp_0028",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_0fa046500169b8e0",
+      "product_id": "hp_0028",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_5fae187f53cfd4ab",
+      "product_id": "hp_0028",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_7e7fa0be8ecd5890",
+      "product_id": "hp_0028",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_38a4c3294b914a5a",
+      "product_id": "hp_0029",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_5371710ddcd22924",
+      "product_id": "hp_0029",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_f3db2aa73b2222ce",
+      "product_id": "hp_0029",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_33dcc55a87cd5255",
+      "product_id": "hp_0029",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_18b6f13dd7497421",
+      "product_id": "hp_0029",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_20dcbf7037f26fc6",
+      "product_id": "hp_0029",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_e77eac3ccdf897a5",
+      "product_id": "hp_0029",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_219779f39b7eeef3",
+      "product_id": "hp_0029",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_55d3f1b9cbcb188b",
+      "product_id": "hp_0029",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_dce86bc1dd3d82b1",
+      "product_id": "hp_0029",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_920adaaee14f786b",
+      "product_id": "hp_0030",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_beea52627671a4fd",
+      "product_id": "hp_0030",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_04435d64b2efeedc",
+      "product_id": "hp_0030",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_7df492609f02785e",
+      "product_id": "hp_0030",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_a9b1052b917f293e",
+      "product_id": "hp_0030",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_0661507cdac48011",
+      "product_id": "hp_0030",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_3dff7f2edd366e2c",
+      "product_id": "hp_0030",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_56152e800c7ddcea",
+      "product_id": "hp_0030",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_c96ff8bd73eed17b",
+      "product_id": "hp_0030",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_fa6c10265a212255",
+      "product_id": "hp_0030",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_8720bda833800c87",
+      "product_id": "hp_0031",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_7c7bad75b23c18f3",
+      "product_id": "hp_0031",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_dd3decf1e17bb10b",
+      "product_id": "hp_0031",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_b92b77a67eb3b38c",
+      "product_id": "hp_0031",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_186207903a3db2dc",
+      "product_id": "hp_0031",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_57f7e60c09e76d67",
+      "product_id": "hp_0031",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_3cab6a111ab7e381",
+      "product_id": "hp_0031",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_913797cb87e4081a",
+      "product_id": "hp_0031",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_93115c515047e979",
+      "product_id": "hp_0031",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_125a2d0778823d9d",
+      "product_id": "hp_0031",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_04b646c8b1742eac",
+      "product_id": "hp_0032",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_ca3fa9dc126d75ac",
+      "product_id": "hp_0032",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_a9ceaba496fc0ba2",
+      "product_id": "hp_0032",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_6f4715e750a4fc07",
+      "product_id": "hp_0032",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_af2fe25dc3d49709",
+      "product_id": "hp_0032",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_a54bb615f0608b59",
+      "product_id": "hp_0032",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_23374fbcaa93aef4",
+      "product_id": "hp_0032",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_a08bde379f77a5d9",
+      "product_id": "hp_0032",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_a61568ebfe840a28",
+      "product_id": "hp_0032",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_db75b818e657f672",
+      "product_id": "hp_0032",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_f6fdfac9bc26345f",
+      "product_id": "hp_0033",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_6b5a7e5e2c7d7df6",
+      "product_id": "hp_0033",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_b2cb0ad7dfc617b9",
+      "product_id": "hp_0033",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_933904360faae578",
+      "product_id": "hp_0033",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_01791b9f2998b276",
+      "product_id": "hp_0033",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_91c698970d0281e5",
+      "product_id": "hp_0033",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_0dc23abcdc675abc",
+      "product_id": "hp_0033",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_878efc280d9614b8",
+      "product_id": "hp_0033",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_38c062889e98bf05",
+      "product_id": "hp_0033",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_3cffb505dc2f0825",
+      "product_id": "hp_0033",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_e4f9e8b3cfbb16ca",
+      "product_id": "hp_0034",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_f1c89be329ec8712",
+      "product_id": "hp_0034",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_c14f48175b2ffc08",
+      "product_id": "hp_0034",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_23cff30ae987c8e7",
+      "product_id": "hp_0034",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_ebe5fd3e8fc01897",
+      "product_id": "hp_0034",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_9ffb9cf707fcb2eb",
+      "product_id": "hp_0034",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_4beb42f2d4eb35f7",
+      "product_id": "hp_0034",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_f50b9adbf30c0122",
+      "product_id": "hp_0034",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_e085e59376eb11f4",
+      "product_id": "hp_0034",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_b924e606570e9ffe",
+      "product_id": "hp_0034",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_249b89dacf13e1f6",
+      "product_id": "hp_0035",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_9d8799929d526a75",
+      "product_id": "hp_0035",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_657cbcde1064e441",
+      "product_id": "hp_0035",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_3ae97d635b7f622b",
+      "product_id": "hp_0035",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_0076c68b553ebd1f",
+      "product_id": "hp_0035",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_d065109d9a42619a",
+      "product_id": "hp_0035",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_ae749fc2b9819ea0",
+      "product_id": "hp_0035",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_ff7416d12d7b5919",
+      "product_id": "hp_0035",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_d40b5580b0c14325",
+      "product_id": "hp_0035",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_f9c154ea1a0d25bf",
+      "product_id": "hp_0035",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_ce89729ce0edc18a",
+      "product_id": "hp_0036",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_5b5afa96d88df8f6",
+      "product_id": "hp_0036",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_013b0f0c59cb575d",
+      "product_id": "hp_0036",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_f96b6161decc7795",
+      "product_id": "hp_0036",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_60608167078e4d2d",
+      "product_id": "hp_0036",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_e1ebe06bb00f8f02",
+      "product_id": "hp_0036",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_fb8e2f45a4f4abdd",
+      "product_id": "hp_0036",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_bfc994b8e12ca06c",
+      "product_id": "hp_0036",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_96c873d92d6604fc",
+      "product_id": "hp_0036",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_d5f9230a1c86177a",
+      "product_id": "hp_0036",
+      "is_manipulated": true,
+      "sentiment": "positive",
+      "campaign_id": "cmp_boost",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_1c787cfed8fa88ac",
+      "product_id": "hp_0037",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_f5e00c5371db5039",
+      "product_id": "hp_0037",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_a61ece200ce9da9d",
+      "product_id": "hp_0037",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_1110e5a40c36b216",
+      "product_id": "hp_0037",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_059f5b02c885de34",
+      "product_id": "hp_0037",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_9045c097305a27e2",
+      "product_id": "hp_0037",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_2d83d5e5536cf465",
+      "product_id": "hp_0037",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_8f4ea26abf76efae",
+      "product_id": "hp_0037",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_f20ffc7039e7dc3b",
+      "product_id": "hp_0037",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_8d4a54f700a307e3",
+      "product_id": "hp_0037",
+      "is_manipulated": true,
+      "sentiment": "negative",
+      "campaign_id": "cmp_attack",
+      "signals": [
+        "repeated_campaign_phrases",
+        "absolute_unqualified_claims",
+        "one_sided_sentiment",
+        "posting_burst",
+        "pressure_or_dismissal"
+      ]
+    },
+    {
+      "review_id": "rev_9700ab5538f56283",
+      "product_id": "hp_0038",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_b8a9e2a646fe33e3",
+      "product_id": "hp_0038",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_616016a8cf089320",
+      "product_id": "hp_0038",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_6bdd9e1fd702dc99",
+      "product_id": "hp_0038",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_a9f6685c0844c6ba",
+      "product_id": "hp_0038",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_608aa6d3dd13dc4b",
+      "product_id": "hp_0038",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_7783769ab3845657",
+      "product_id": "hp_0038",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_c6f52055565e00e1",
+      "product_id": "hp_0038",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_8f29c20ace50b970",
+      "product_id": "hp_0038",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_763a7f341268d259",
+      "product_id": "hp_0038",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_7a96171713911fb9",
+      "product_id": "hp_0039",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_24d566e628840a40",
+      "product_id": "hp_0039",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_a9f593bd99d786f2",
+      "product_id": "hp_0039",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_6b1f0eafbc72498c",
+      "product_id": "hp_0039",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_1ce18eae0acbf52f",
+      "product_id": "hp_0039",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_6f982439c229a4ee",
+      "product_id": "hp_0039",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_310310ffd08d30ce",
+      "product_id": "hp_0039",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_377312f5c4d94240",
+      "product_id": "hp_0039",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_3eec80854116263e",
+      "product_id": "hp_0039",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_79d549cb82d08cca",
+      "product_id": "hp_0039",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_cc43ee285dbf17ab",
+      "product_id": "hp_0040",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_eee2409498828cf3",
+      "product_id": "hp_0040",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_11702a0738a4037c",
+      "product_id": "hp_0040",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_fe6b542137a2884e",
+      "product_id": "hp_0040",
+      "is_manipulated": false,
+      "sentiment": "mixed",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_902a3788201e53cc",
+      "product_id": "hp_0040",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_5227342a756e0c00",
+      "product_id": "hp_0040",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_0cb70b46e01525de",
+      "product_id": "hp_0040",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_a5fcc77aa19190a2",
+      "product_id": "hp_0040",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_8e0eff6c3180f829",
+      "product_id": "hp_0040",
+      "is_manipulated": false,
+      "sentiment": "positive",
+      "campaign_id": null,
+      "signals": []
+    },
+    {
+      "review_id": "rev_515b558e279edd7b",
+      "product_id": "hp_0040",
+      "is_manipulated": false,
+      "sentiment": "negative",
+      "campaign_id": null,
+      "signals": []
+    }
+  ]
+}
