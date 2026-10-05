@@ -1,0 +1,35 @@
+# Line endings
+#
+# The team is on Windows and macOS. Neither platform needs CRLF, and pinning the
+# working tree to LF means a checkout does not depend on each person's
+# core.autocrlf setting -- which is the usual way a mixed-OS repo ends up with
+# whole-file diffs that nobody made.
+#
+# `text=auto` lets git decide text versus binary by content; `eol=lf` then
+# forces LF both in the repository and in every working tree.
+* text=auto eol=lf
+
+# Binary. Never translated, never diffed as text.
+*.sqlite3    binary
+*.sqlite3-*  binary
+*.bak        binary
+*.png        binary
+*.jpg        binary
+*.jpeg       binary
+*.gif        binary
+*.webp       binary
+*.ico        binary
+*.pdf        binary
+*.zip        binary
+*.gz         binary
+*.xlsx       binary
+*.docx       binary
+*.pptx       binary
+
+# Fixtures are generated and diffed; keep them normalised so that regenerating
+# on another machine produces no diff. scripts/gen_fixtures.py writes LF to match.
+fixtures/*.json  text eol=lf
+
+# Git's own files must stay LF regardless.
+.gitattributes   text eol=lf
+.gitignore       text eol=lf

@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Runtime database and its backups -- regenerate with scripts/init_demo.py
+# The directory itself is kept (var/.gitkeep); its contents are not.
+var/*
+!var/.gitkeep
+*.bak
+*.before-reset-*.bak
+
+# Secrets.
+# Any .env file you actually use is ignored, whatever it is called, so a key
+# cannot be committed by giving the file a provider-specific name. The committed
+# templates are the ones ending in .example, and they hold no key.
+.env
+.env.*
+!.env.*.example
+*.key
+*.pem
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
