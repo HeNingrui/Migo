@@ -1,0 +1,313 @@
+{
+  "_meta": {
+    "fixture_id": "search.002.relax",
+    "title": "无完美解：严格条件 0 款，产出放宽提示与最接近候选",
+    "catalog": "data/products.seed.json",
+    "spec": "docs/A2B_搜索推荐对比接口规范_v1.1.md",
+    "generated_by": "scripts/gen_fixtures.py",
+    "do_not_edit_by_hand": "期望输出由生成器复算。要改期望值请改种子或规范，然后重新运行生成器。",
+    "note": "核心断言：candidates 与 comparison 为空；放宽结果只出现在 relax_hints。"
+  },
+  "request": {
+    "constraints": {
+      "category": "headphones",
+      "min_price_cents": null,
+      "max_price_cents": 30000,
+      "brand_allowlist": [],
+      "connection": "wireless",
+      "form_factor": null,
+      "anc_required": true,
+      "min_battery_hours": null,
+      "max_wearing_weight_g": 5,
+      "in_stock_only": true
+    },
+    "preferences": {
+      "use_cases": [
+        "commute"
+      ],
+      "criteria": [
+        {
+          "attribute": "wearing_weight_g",
+          "direction": "lower",
+          "target": null,
+          "priority": "medium",
+          "source": "explicit",
+          "evidence_quote": "最好 5 克以内"
+        }
+      ],
+      "priority_preset": "best_match",
+      "prefer_anc": false
+    },
+    "comparison": {
+      "dimensions": [
+        "price_cents",
+        "wearing_weight_g"
+      ],
+      "max_columns": 3
+    },
+    "limit": 3
+  },
+  "expected": {
+    "total_matches": 0,
+    "returned": 0,
+    "applied_constraints": {
+      "category": "headphones",
+      "min_price_cents": null,
+      "max_price_cents": 30000,
+      "brand_allowlist": [],
+      "connection": "wireless",
+      "form_factor": null,
+      "anc_required": true,
+      "min_battery_hours": null,
+      "max_wearing_weight_g": 5,
+      "in_stock_only": true
+    },
+    "applied_criteria": [
+      "wearing_weight_g"
+    ],
+    "candidates": [],
+    "comparison": [],
+    "gaps": {
+      "unsupported_criteria": [],
+      "dropped_criteria": [],
+      "dropped_dimensions": [],
+      "missing_data_attributes": [],
+      "over_budget_alternatives": []
+    },
+    "relax_hints": {
+      "hints": [
+        {
+          "field": "max_wearing_weight_g",
+          "from_value": 5,
+          "to_value": 9,
+          "gained_count": 2,
+          "example_product_id": "hp_0001"
+        }
+      ],
+      "closest_candidates": [
+        {
+          "product": {
+            "product_id": "hp_0001",
+            "category": "headphones",
+            "name": "Auralis Audio Air C True Wireless Earbuds - Black (Demo)",
+            "brand": "Auralis Audio",
+            "model": "Air C",
+            "variant": "Black, Standard Edition",
+            "connection": "wireless",
+            "form_factor": "in_ear",
+            "price_cents": 29900,
+            "currency": "HKD",
+            "stock": 10,
+            "anc": true,
+            "battery_hours": 8,
+            "wearing_weight_g": 9,
+            "use_cases": [
+              "commute",
+              "study",
+              "music",
+              "calls"
+            ],
+            "source_type": "demo",
+            "source_url": null,
+            "data_note": "Fictional product. Brand, price, specifications, use cases, seller description and shipping origin are demo settings and do not represent a real listing. Prices are demo HKD amounts, not currency conversions.",
+            "seller_description": "Meet Air C: wireless in-ear listening with ANC, 8-hour battery life and a 9 g pair.",
+            "shipping_origin": "Hong Kong"
+          },
+          "match_score": 10,
+          "reasons": [
+            {
+              "field": "use_cases",
+              "observed": [
+                "commute",
+                "study",
+                "music",
+                "calls"
+              ],
+              "text": "命中用途：通勤",
+              "kind": "preference"
+            },
+            {
+              "field": "anc",
+              "observed": true,
+              "text": "支持主动降噪",
+              "kind": "constraint"
+            },
+            {
+              "field": "connection",
+              "observed": "wireless",
+              "text": "无线连接",
+              "kind": "constraint"
+            },
+            {
+              "field": "battery_hours",
+              "observed": 8,
+              "text": "标称续航 8 小时",
+              "kind": "spec"
+            },
+            {
+              "field": "wearing_weight_g",
+              "observed": 9,
+              "text": "佩戴重量 9 克",
+              "kind": "spec"
+            },
+            {
+              "field": "price_cents",
+              "observed": 29900,
+              "text": "价格 HK$299.00",
+              "kind": "constraint"
+            }
+          ],
+          "preference_misses": [],
+          "violated_fields": [
+            "max_wearing_weight_g"
+          ]
+        },
+        {
+          "product": {
+            "product_id": "hp_0008",
+            "category": "headphones",
+            "name": "Auralis Audio Air C True Wireless Earbuds - White (Demo)",
+            "brand": "Auralis Audio",
+            "model": "Air C",
+            "variant": "White, Standard Edition",
+            "connection": "wireless",
+            "form_factor": "in_ear",
+            "price_cents": 29900,
+            "currency": "HKD",
+            "stock": 5,
+            "anc": true,
+            "battery_hours": 8,
+            "wearing_weight_g": 9,
+            "use_cases": [
+              "commute",
+              "study",
+              "music",
+              "calls"
+            ],
+            "source_type": "demo",
+            "source_url": null,
+            "data_note": "Fictional product. Brand, price, specifications, use cases, seller description and shipping origin are demo settings and do not represent a real listing. Prices are demo HKD amounts, not currency conversions.",
+            "seller_description": "Meet Air C in white: wireless in-ear headphones with ANC and 8-hour battery life.",
+            "shipping_origin": "Hong Kong"
+          },
+          "match_score": 10,
+          "reasons": [
+            {
+              "field": "use_cases",
+              "observed": [
+                "commute",
+                "study",
+                "music",
+                "calls"
+              ],
+              "text": "命中用途：通勤",
+              "kind": "preference"
+            },
+            {
+              "field": "anc",
+              "observed": true,
+              "text": "支持主动降噪",
+              "kind": "constraint"
+            },
+            {
+              "field": "connection",
+              "observed": "wireless",
+              "text": "无线连接",
+              "kind": "constraint"
+            },
+            {
+              "field": "battery_hours",
+              "observed": 8,
+              "text": "标称续航 8 小时",
+              "kind": "spec"
+            },
+            {
+              "field": "wearing_weight_g",
+              "observed": 9,
+              "text": "佩戴重量 9 克",
+              "kind": "spec"
+            },
+            {
+              "field": "price_cents",
+              "observed": 29900,
+              "text": "价格 HK$299.00",
+              "kind": "constraint"
+            }
+          ],
+          "preference_misses": [],
+          "violated_fields": [
+            "max_wearing_weight_g"
+          ]
+        },
+        {
+          "product": {
+            "product_id": "hp_0018",
+            "category": "headphones",
+            "name": "Auralis Audio Silence H18 True Wireless Earbuds - Black (Demo)",
+            "brand": "Auralis Audio",
+            "model": "H18",
+            "variant": "Black, Standard Edition",
+            "connection": "wireless",
+            "form_factor": "in_ear",
+            "price_cents": 27900,
+            "currency": "HKD",
+            "stock": 7,
+            "anc": true,
+            "battery_hours": 23,
+            "wearing_weight_g": 10,
+            "use_cases": [
+              "study",
+              "music"
+            ],
+            "source_type": "demo",
+            "source_url": null,
+            "data_note": "Fictional product. Brand, price, specifications, use cases, seller description and shipping origin are demo settings and do not represent a real listing. Prices are demo HKD amounts, not currency conversions.",
+            "seller_description": "Choose H18: wireless in-ear headphones with ANC and 23-hour battery life for study and music.",
+            "shipping_origin": "Hong Kong"
+          },
+          "match_score": 0,
+          "reasons": [
+            {
+              "field": "anc",
+              "observed": true,
+              "text": "支持主动降噪",
+              "kind": "constraint"
+            },
+            {
+              "field": "connection",
+              "observed": "wireless",
+              "text": "无线连接",
+              "kind": "constraint"
+            },
+            {
+              "field": "battery_hours",
+              "observed": 23,
+              "text": "标称续航 23 小时",
+              "kind": "spec"
+            },
+            {
+              "field": "wearing_weight_g",
+              "observed": 10,
+              "text": "佩戴重量 10 克",
+              "kind": "spec"
+            },
+            {
+              "field": "price_cents",
+              "observed": 27900,
+              "text": "价格 HK$279.00",
+              "kind": "constraint"
+            }
+          ],
+          "preference_misses": [],
+          "violated_fields": [
+            "max_wearing_weight_g"
+          ]
+        }
+      ]
+    },
+    "suggestions": [
+      "放宽 max_wearing_weight_g 到 9 可多 2 款"
+    ],
+    "currency": "HKD"
+  }
+}

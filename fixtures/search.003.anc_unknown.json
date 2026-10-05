@@ -1,0 +1,461 @@
+{
+  "_meta": {
+    "fixture_id": "search.003.anc_unknown",
+    "title": "边界：anc=null 不得满足 anc_required=true；lower_price 预设排序",
+    "catalog": "data/products.seed.json",
+    "spec": "docs/A2B_搜索推荐对比接口规范_v1.1.md",
+    "generated_by": "scripts/gen_fixtures.py",
+    "do_not_edit_by_hand": "期望输出由生成器复算。要改期望值请改种子或规范，然后重新运行生成器。",
+    "note": "若 anc 为 null 的商品出现在结果里，说明未知被当成了满足。"
+  },
+  "request": {
+    "constraints": {
+      "category": "headphones",
+      "min_price_cents": null,
+      "max_price_cents": null,
+      "brand_allowlist": [],
+      "connection": null,
+      "form_factor": null,
+      "anc_required": true,
+      "min_battery_hours": null,
+      "max_wearing_weight_g": null,
+      "in_stock_only": true
+    },
+    "preferences": {
+      "use_cases": [
+        "commute"
+      ],
+      "criteria": [],
+      "priority_preset": "lower_price",
+      "prefer_anc": false
+    },
+    "comparison": {
+      "dimensions": [
+        "price_cents"
+      ],
+      "max_columns": 5
+    },
+    "limit": 5
+  },
+  "expected": {
+    "total_matches": 6,
+    "returned": 5,
+    "applied_constraints": {
+      "category": "headphones",
+      "min_price_cents": null,
+      "max_price_cents": null,
+      "brand_allowlist": [],
+      "connection": null,
+      "form_factor": null,
+      "anc_required": true,
+      "min_battery_hours": null,
+      "max_wearing_weight_g": null,
+      "in_stock_only": true
+    },
+    "applied_criteria": [],
+    "candidates": [
+      {
+        "product": {
+          "product_id": "hp_0001",
+          "category": "headphones",
+          "name": "Auralis Audio Air C True Wireless Earbuds - Black (Demo)",
+          "brand": "Auralis Audio",
+          "model": "Air C",
+          "variant": "Black, Standard Edition",
+          "connection": "wireless",
+          "form_factor": "in_ear",
+          "price_cents": 29900,
+          "currency": "HKD",
+          "stock": 10,
+          "anc": true,
+          "battery_hours": 8,
+          "wearing_weight_g": 9,
+          "use_cases": [
+            "commute",
+            "study",
+            "music",
+            "calls"
+          ],
+          "source_type": "demo",
+          "source_url": null,
+          "data_note": "Fictional product. Brand, price, specifications, use cases, seller description and shipping origin are demo settings and do not represent a real listing. Prices are demo HKD amounts, not currency conversions.",
+          "seller_description": "Meet Air C: wireless in-ear listening with ANC, 8-hour battery life and a 9 g pair.",
+          "shipping_origin": "Hong Kong"
+        },
+        "match_score": 10,
+        "reasons": [
+          {
+            "field": "use_cases",
+            "observed": [
+              "commute",
+              "study",
+              "music",
+              "calls"
+            ],
+            "text": "命中用途：通勤",
+            "kind": "preference"
+          },
+          {
+            "field": "anc",
+            "observed": true,
+            "text": "支持主动降噪",
+            "kind": "constraint"
+          },
+          {
+            "field": "connection",
+            "observed": "wireless",
+            "text": "无线连接",
+            "kind": "constraint"
+          },
+          {
+            "field": "battery_hours",
+            "observed": 8,
+            "text": "标称续航 8 小时",
+            "kind": "spec"
+          },
+          {
+            "field": "wearing_weight_g",
+            "observed": 9,
+            "text": "佩戴重量 9 克",
+            "kind": "spec"
+          },
+          {
+            "field": "price_cents",
+            "observed": 29900,
+            "text": "价格 HK$299.00",
+            "kind": "constraint"
+          }
+        ],
+        "preference_misses": [],
+        "violated_fields": []
+      },
+      {
+        "product": {
+          "product_id": "hp_0008",
+          "category": "headphones",
+          "name": "Auralis Audio Air C True Wireless Earbuds - White (Demo)",
+          "brand": "Auralis Audio",
+          "model": "Air C",
+          "variant": "White, Standard Edition",
+          "connection": "wireless",
+          "form_factor": "in_ear",
+          "price_cents": 29900,
+          "currency": "HKD",
+          "stock": 5,
+          "anc": true,
+          "battery_hours": 8,
+          "wearing_weight_g": 9,
+          "use_cases": [
+            "commute",
+            "study",
+            "music",
+            "calls"
+          ],
+          "source_type": "demo",
+          "source_url": null,
+          "data_note": "Fictional product. Brand, price, specifications, use cases, seller description and shipping origin are demo settings and do not represent a real listing. Prices are demo HKD amounts, not currency conversions.",
+          "seller_description": "Meet Air C in white: wireless in-ear headphones with ANC and 8-hour battery life.",
+          "shipping_origin": "Hong Kong"
+        },
+        "match_score": 10,
+        "reasons": [
+          {
+            "field": "use_cases",
+            "observed": [
+              "commute",
+              "study",
+              "music",
+              "calls"
+            ],
+            "text": "命中用途：通勤",
+            "kind": "preference"
+          },
+          {
+            "field": "anc",
+            "observed": true,
+            "text": "支持主动降噪",
+            "kind": "constraint"
+          },
+          {
+            "field": "connection",
+            "observed": "wireless",
+            "text": "无线连接",
+            "kind": "constraint"
+          },
+          {
+            "field": "battery_hours",
+            "observed": 8,
+            "text": "标称续航 8 小时",
+            "kind": "spec"
+          },
+          {
+            "field": "wearing_weight_g",
+            "observed": 9,
+            "text": "佩戴重量 9 克",
+            "kind": "spec"
+          },
+          {
+            "field": "price_cents",
+            "observed": 29900,
+            "text": "价格 HK$299.00",
+            "kind": "constraint"
+          }
+        ],
+        "preference_misses": [],
+        "violated_fields": []
+      },
+      {
+        "product": {
+          "product_id": "hp_0007",
+          "category": "headphones",
+          "name": "Sonavia Audio Border Wireless ANC Headphones - Black (Demo)",
+          "brand": "Sonavia Audio",
+          "model": "Border",
+          "variant": "Black, Standard Edition",
+          "connection": "wireless",
+          "form_factor": "over_ear",
+          "price_cents": 30000,
+          "currency": "HKD",
+          "stock": 4,
+          "anc": true,
+          "battery_hours": 32,
+          "wearing_weight_g": 218,
+          "use_cases": [
+            "commute",
+            "study"
+          ],
+          "source_type": "demo",
+          "source_url": null,
+          "data_note": "Fictional product. Brand, price, specifications, use cases, seller description and shipping origin are demo settings and do not represent a real listing. Prices are demo HKD amounts, not currency conversions.",
+          "seller_description": "Choose Border: wireless over-ear ANC headphones with 32-hour battery life at HKD 300.",
+          "shipping_origin": "Hong Kong"
+        },
+        "match_score": 10,
+        "reasons": [
+          {
+            "field": "use_cases",
+            "observed": [
+              "commute",
+              "study"
+            ],
+            "text": "命中用途：通勤",
+            "kind": "preference"
+          },
+          {
+            "field": "anc",
+            "observed": true,
+            "text": "支持主动降噪",
+            "kind": "constraint"
+          },
+          {
+            "field": "connection",
+            "observed": "wireless",
+            "text": "无线连接",
+            "kind": "constraint"
+          },
+          {
+            "field": "battery_hours",
+            "observed": 32,
+            "text": "标称续航 32 小时",
+            "kind": "spec"
+          },
+          {
+            "field": "wearing_weight_g",
+            "observed": 218,
+            "text": "佩戴重量 218 克",
+            "kind": "spec"
+          },
+          {
+            "field": "price_cents",
+            "observed": 30000,
+            "text": "价格 HK$300.00",
+            "kind": "constraint"
+          }
+        ],
+        "preference_misses": [],
+        "violated_fields": []
+      },
+      {
+        "product": {
+          "product_id": "hp_0034",
+          "category": "headphones",
+          "name": "Sonavia Audio QuietWave H34 Wireless ANC Headphones - Black (Demo)",
+          "brand": "Sonavia Audio",
+          "model": "H34",
+          "variant": "Black, Standard Edition",
+          "connection": "wireless",
+          "form_factor": "over_ear",
+          "price_cents": 33900,
+          "currency": "HKD",
+          "stock": 11,
+          "anc": true,
+          "battery_hours": 39,
+          "wearing_weight_g": null,
+          "use_cases": [
+            "study",
+            "music",
+            "commute"
+          ],
+          "source_type": "demo",
+          "source_url": null,
+          "data_note": "Fictional product. Brand, price, specifications, use cases, seller description and shipping origin are demo settings and do not represent a real listing. Prices are demo HKD amounts, not currency conversions.",
+          "seller_description": "Enjoy H34: wireless over-ear ANC headphones with 39-hour battery life for music and commuting.",
+          "shipping_origin": "Hong Kong"
+        },
+        "match_score": 10,
+        "reasons": [
+          {
+            "field": "use_cases",
+            "observed": [
+              "study",
+              "music",
+              "commute"
+            ],
+            "text": "命中用途：通勤",
+            "kind": "preference"
+          },
+          {
+            "field": "anc",
+            "observed": true,
+            "text": "支持主动降噪",
+            "kind": "constraint"
+          },
+          {
+            "field": "connection",
+            "observed": "wireless",
+            "text": "无线连接",
+            "kind": "constraint"
+          },
+          {
+            "field": "battery_hours",
+            "observed": 39,
+            "text": "标称续航 39 小时",
+            "kind": "spec"
+          },
+          {
+            "field": "price_cents",
+            "observed": 33900,
+            "text": "价格 HK$339.00",
+            "kind": "constraint"
+          }
+        ],
+        "preference_misses": [],
+        "violated_fields": []
+      },
+      {
+        "product": {
+          "product_id": "hp_0003",
+          "category": "headphones",
+          "name": "Auralis Audio Quiet Wireless ANC Headphones - Silver (Demo)",
+          "brand": "Auralis Audio",
+          "model": "Quiet",
+          "variant": "Silver, Standard Edition",
+          "connection": "wireless",
+          "form_factor": "over_ear",
+          "price_cents": 49900,
+          "currency": "HKD",
+          "stock": 6,
+          "anc": true,
+          "battery_hours": 40,
+          "wearing_weight_g": 230,
+          "use_cases": [
+            "commute",
+            "study",
+            "music"
+          ],
+          "source_type": "demo",
+          "source_url": null,
+          "data_note": "Fictional product. Brand, price, specifications, use cases, seller description and shipping origin are demo settings and do not represent a real listing. Prices are demo HKD amounts, not currency conversions.",
+          "seller_description": "Enjoy Quiet: wireless over-ear headphones with ANC and 40-hour battery life.",
+          "shipping_origin": "Hong Kong"
+        },
+        "match_score": 10,
+        "reasons": [
+          {
+            "field": "use_cases",
+            "observed": [
+              "commute",
+              "study",
+              "music"
+            ],
+            "text": "命中用途：通勤",
+            "kind": "preference"
+          },
+          {
+            "field": "anc",
+            "observed": true,
+            "text": "支持主动降噪",
+            "kind": "constraint"
+          },
+          {
+            "field": "connection",
+            "observed": "wireless",
+            "text": "无线连接",
+            "kind": "constraint"
+          },
+          {
+            "field": "battery_hours",
+            "observed": 40,
+            "text": "标称续航 40 小时",
+            "kind": "spec"
+          },
+          {
+            "field": "wearing_weight_g",
+            "observed": 230,
+            "text": "佩戴重量 230 克",
+            "kind": "spec"
+          },
+          {
+            "field": "price_cents",
+            "observed": 49900,
+            "text": "价格 HK$499.00",
+            "kind": "constraint"
+          }
+        ],
+        "preference_misses": [],
+        "violated_fields": []
+      }
+    ],
+    "comparison": [
+      {
+        "attribute": "price_cents",
+        "direction": "lower",
+        "values": [
+          {
+            "value": 29900,
+            "known": true
+          },
+          {
+            "value": 29900,
+            "known": true
+          },
+          {
+            "value": 30000,
+            "known": true
+          },
+          {
+            "value": 33900,
+            "known": true
+          },
+          {
+            "value": 49900,
+            "known": true
+          }
+        ],
+        "spread": 20000,
+        "is_distinguishing": true,
+        "is_criterion": false
+      }
+    ],
+    "gaps": {
+      "unsupported_criteria": [],
+      "dropped_criteria": [],
+      "dropped_dimensions": [],
+      "missing_data_attributes": [],
+      "over_budget_alternatives": []
+    },
+    "relax_hints": null,
+    "suggestions": [],
+    "currency": "HKD"
+  }
+}
